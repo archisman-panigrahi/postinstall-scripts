@@ -153,3 +153,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+## APT like syntax for Pacman
+alias pacman-autoremove='yay -Rsn $(yay -Qdtq)'
+alias pacman-clean='yay -Scc'
+
