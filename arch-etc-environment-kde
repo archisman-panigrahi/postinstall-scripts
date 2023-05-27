@@ -1,0 +1,10 @@
+BROWSER=firefox
+EDITOR=nano
+GTK_THEME=Arc
+
+
+GTK_IM_MODULE=ibus
+QT_IM_MODULE=ibus
+XMODIFIERS=@im=ibus
+
+GTK_USE_PORTAL=1
