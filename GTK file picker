@@ -2,3 +2,5 @@
 [Tip] Set 'widget.use-xdg-desktop-portal' to 'true' (or 1) in about:config to make Firefox Wayland use KDE file picker.
 
 Also, MOZ_ENABLE_WAYLAND=1 set in /etc/environment sets wayland
+
+In Arch, install xdg-desktop-portal and xdg-desktop-portal-kde
