@@ -1,0 +1,6 @@
+export GTK_THEME=Arc
+export XDG_DATA_DIRS="/usr/local/share:/usr/share:$XDG_DATA_DIRS"
+export XDG_CONFIG_DIRS="/etc/xdg:$XDG_CONFIG_DIRS"
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
