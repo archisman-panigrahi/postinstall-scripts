@@ -4,3 +4,7 @@ export XDG_CONFIG_DIRS="/etc/xdg:$XDG_CONFIG_DIRS"
 GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
+
+#This fixes flooding of journal due to plasma-power-monitor
+#See https://github.com/atul-g/plasma-power-monitor/issues/7
+QML_XHR_ALLOW_FILE_READ=1
