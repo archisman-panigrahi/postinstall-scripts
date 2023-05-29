@@ -1,6 +1,6 @@
-export GTK_THEME=Arc
-export XDG_DATA_DIRS="/usr/local/share:/usr/share:$XDG_DATA_DIRS"
-export XDG_CONFIG_DIRS="/etc/xdg:$XDG_CONFIG_DIRS"
+GTK_THEME=Arc
+XDG_DATA_DIRS="/usr/local/share:/usr/share:$XDG_DATA_DIRS"
+XDG_CONFIG_DIRS="/etc/xdg:$XDG_CONFIG_DIRS"
 GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
@@ -8,3 +8,4 @@ XMODIFIERS=@im=fcitx
 #This fixes flooding of journal due to plasma-power-monitor
 #See https://github.com/atul-g/plasma-power-monitor/issues/7
 QML_XHR_ALLOW_FILE_READ=1
+MOZ_ENABLE_WAYLAND=1
