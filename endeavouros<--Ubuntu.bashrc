@@ -162,4 +162,6 @@ alias pacman-clean='yay -Scc'
 alias rotate-webcam-sudo='sudo modprobe v4l2loopback exclusive_caps=1 && ffmpeg -f v4l2 -i /dev/video0 -vf "transpose=2,transpose=2,format=yuv420p" -f v4l2 /dev/video2'
 alias rotate-webcam='ffmpeg -f v4l2 -i /dev/video1 -vf "transpose=2,transpose=2,format=yuv420p" -f v4l2 /dev/video0'
 
+## GRUB
+update-grub='grub-mkconfig -o /boot/grub/grub.cfg'
 
