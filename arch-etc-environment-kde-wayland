@@ -9,3 +9,5 @@ XMODIFIERS=@im=fcitx
 #See https://github.com/atul-g/plasma-power-monitor/issues/7
 QML_XHR_ALLOW_FILE_READ=1
 MOZ_ENABLE_WAYLAND=1
+##Telegram KDE dialog
+QT_QPA_PLATFORMTHEME=xdgdesktopportal
