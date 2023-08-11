@@ -22,5 +22,5 @@ git clone https://github.com/foundObjects/zram-swap.git
 cd zram-swap/
 sudo ./install.sh
 
-sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape python-is-python3 python3-numpy python3-scipy jupyter-notebook npm cpufetch plank ibus-avro python3-octave-kernel vlc okular texstudio texlive-full stellarium -y
+sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook npm cpufetch plank ibus-avro python3-octave-kernel vlc okular texstudio texlive-full stellarium -y
 sudo updatedb
