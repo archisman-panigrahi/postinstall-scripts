@@ -32,4 +32,8 @@ cd zram-swap/
 sudo ./install.sh
 
 sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape cheese python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook github-desktop npm cpufetch plank ibus-avro python3-octave-kernel vlc okular texstudio texlive-full code stellarium safeeyes -y
+
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+
 sudo updatedb
+
