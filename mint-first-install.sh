@@ -22,7 +22,7 @@ sudo apt update
 curl -fsSL https://install.julialang.org | sh -s -- -y
 
 mkdir "${HOME}/.npm-packages"
-sudo apt  install npm -y && npm config set prefix "${HOME}/.npm-packages"
+sudo apt install npm -y && npm config set prefix "${HOME}/.npm-packages"
 npm install -g insect
 
 gsettings set org.cinnamon.desktop.wm.preferences button-layout "close,minimize,maximize:"
