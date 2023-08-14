@@ -1,7 +1,6 @@
 sudo add-apt-repository ppa:inkscape.dev/stable -y
 sudo add-apt-repository ppa:mati75/gimp30 -y
 sudo add-apt-repository ppa:libreoffice-ppa -y
-sudo add-apt-repository ppa:libreoffice/ppa -y
 sudo add-apt-repository ppa:apandada1/foliate -y
 sudo add-apt-repository ppa:apandada1/blanket -y
 sudo add-apt-repository ppa:apandada1/marker -y
