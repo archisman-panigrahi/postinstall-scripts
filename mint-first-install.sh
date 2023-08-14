@@ -1,14 +1,15 @@
-sudo add-apt-repository ppa:inkscape.dev/stable
-sudo add-apt-repository ppa:mati75/gimp30
-sudo add-apt-repository ppa:libreoffice-ppa
-sudo add-apt-repository ppa:libreoffice/ppa
-sudo add-apt-repository ppa:apandada1/foliate
-sudo add-apt-repository ppa:apandada1/blanket
-sudo add-apt-repository ppa:apandada1/marker
-sudo add-apt-repository ppa:apandada1/xournalpp-stable
-sudo add-apt-repository ppa:apandada1/wike
+sudo add-apt-repository ppa:inkscape.dev/stable -y
+sudo add-apt-repository ppa:mati75/gimp30 -y
+sudo add-apt-repository ppa:libreoffice-ppa -y
+sudo add-apt-repository ppa:libreoffice/ppa -y
+sudo add-apt-repository ppa:apandada1/foliate -y
+sudo add-apt-repository ppa:apandada1/blanket -y
+sudo add-apt-repository ppa:apandada1/marker -y
+sudo add-apt-repository ppa:apandada1/xournalpp-stable -y
+sudo add-apt-repository ppa:apandada1/wike -y
 
-sudo apt-get install wget gpg
+sudo apt install wget gpg -y
+
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
