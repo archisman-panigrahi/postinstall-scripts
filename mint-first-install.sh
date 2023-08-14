@@ -35,5 +35,7 @@ sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape chee
 
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
+sudo apt clean
+sudo apt autoremove -y
 sudo updatedb
 
