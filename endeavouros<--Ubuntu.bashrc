@@ -165,5 +165,11 @@ alias show-ip-address-kde-connect='ip address | grep inet'
 alias show-ip-address-plasmoid='konsole --noclose -e  "echo $(echo $(ip address | grep 'inet.*wlp0s12f0') | awk '{print $2}')"'
 
 ## GRUB
-update-grub='grub-mkconfig -o /boot/grub/grub.cfg'
+update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+# set PATH so it includes user's private ~/.local/bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
 
