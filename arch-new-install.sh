@@ -24,3 +24,16 @@ wget https://raw.githubusercontent.com/archisman-panigrahi/dotfiles/main/endeavo
 mv endeavouros\<--Ubuntu.bashrc ~/.bashrc
 
 ## Then overwrite `$HOME/.config` and `$HOME/.local`
+### Mount drives withouts password https://forum.endeavouros.com/t/password-authentication-when-mounting-drives-in-thunar/17812/3
+
+sudo cat >  /etc/polkit-1/rules.d/10-udisks2.rules <<- "EOF"
+// Allow udisks2 to mount devices without authentication
+// for users in the "wheel" group.
+polkit.addRule(function(action, subject) {
+    if ((action.id == "org.freedesktop.udisks2.filesystem-mount-system" ||
+         action.id == "org.freedesktop.udisks2.filesystem-mount") &&
+        subject.isInGroup("wheel")) {
+        return polkit.Result.YES;
+    }
+});
+EOF
