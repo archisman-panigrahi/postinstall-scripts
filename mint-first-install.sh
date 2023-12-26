@@ -6,6 +6,8 @@ sudo add-apt-repository ppa:apandada1/blanket -y
 sudo add-apt-repository ppa:apandada1/marker -y
 sudo add-apt-repository ppa:apandada1/xournalpp-stable -y
 sudo add-apt-repository ppa:apandada1/wike -y
+sudo add-apt-repository ppa:atareao/telegram -y
+sudo add-apt-repository ppa:papirus/papirus -y
 
 sudo apt install wget gpg -y
 
@@ -31,7 +33,7 @@ git clone https://github.com/foundObjects/zram-swap.git
 cd zram-swap/
 sudo ./install.sh
 
-sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape remmina cheese pdfarranger python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook github-desktop npm cpufetch plank ibus-avro python3-octave-kernel vlc okular texstudio texlive-full code stellarium gparted safeeyes -y
+sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape remmina cheese pdfarranger python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook github-desktop npm cpufetch plank ibus-avro python3-octave-kernel vlc okular texstudio texlive-full code stellarium gparted safeeyes telegram papirus-icon-theme -y
 
 # Joplin needs to be configured manually without root
 # wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
