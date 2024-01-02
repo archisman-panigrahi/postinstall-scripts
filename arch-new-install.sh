@@ -10,7 +10,7 @@ sudo systemctl enable sddm.service
 
 sudo pacman -S okular gwenview partitionmanager kalzium kamoso kdeconnect latte-dock filelight ksysguard 
 
-sudo pacman -S inkscape foliate blanket wike vlc firefox chromium telegram-desktop octave jupyter-notebook code freetube-bin geogebra github-desktop-bin globalprotect-openconnect marker kvantum texlive-basic texlive-latexextra texlive-latexrecommended texlive-mathscience texlive-plaingeneric texlive-xetex texstudio pdfarranger libreoffice-fresh micro remmina
+sudo pacman -S inkscape foliate blanket wike vlc firefox chromium telegram-desktop octave jupyter-notebook code freetube-bin geogebra github-desktop-bin globalprotect-openconnect marker kvantum texlive-basic texlive-latexextra texlive-latexrecommended texlive-mathscience texlive-plaingeneric texlive-xetex texstudio pdfarranger libreoffice-fresh micro remmina hunspell hunspell-en_us
 
 yay -S openblas-lapack
 yay -S gimp-devel fcitx5-openbangla-git joplin-appimage noto-fonts-emoji-apple etcher-bin annotator insect julia-bin julia-bin megasync-bin dropbox stellarium-bin parabolic tex-match-bin boop-gtk-bin zoom simplescreenrecorder
