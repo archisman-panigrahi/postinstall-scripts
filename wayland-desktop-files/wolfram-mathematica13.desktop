@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Mathematica 13
+Comment=Technical Computing System
+TryExec=/run/media/archisman/Store/Mathematica/Executables/Mathematica
+Exec=/run/media/archisman/Store/Mathematica/Executables/Mathematica --name M-13.3 %F
+Icon=wolfram-mathematica
+StartupWMClass=M-13.3
+MimeType=application/mathematica;application/x-mathematica;application/vnd.wolfram.nb;application/vnd.wolfram.cdf;application/vnd.wolfram.player;application/vnd.wolfram.mathematica.package;application/vnd.wolfram.wl;x-scheme-handler/wolfram+cloudobject;x-scheme-handler/wolframmathematica+cloudobject;
+Categories=Education;Science;Math;
+Keywords=math;plotting;

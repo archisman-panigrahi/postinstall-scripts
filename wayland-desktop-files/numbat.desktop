@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Numbat
+GenericName=Scientific calculator
+TryExec=numbat
+Exec=numbat
+Icon=numbat-logo2
+Terminal=true
+Categories=Education;Science;Math;
+Keywords=math;numerical computation;physics;quantities;units
