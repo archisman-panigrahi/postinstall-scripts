@@ -10,10 +10,13 @@ sudo systemctl enable sddm.service
 
 sudo pacman -S okular gwenview partitionmanager kalzium kamoso kdeconnect latte-dock filelight ksysguard 
 
-sudo pacman -S inkscape foliate blanket wike vlc firefox chromium telegram-desktop octave jupyter-notebook code geogebra globalprotect-openconnect marker kvantum texlive-basic texlive-latexextra texlive-latexrecommended texlive-mathscience texlive-plaingeneric texlive-xetex texstudio pdfarranger libreoffice-fresh libreoffice-extension-texmaths micro remmina hunspell hunspell-en_us
+sudo pacman -S inkscape foliate blanket wike vlc firefox chromium telegram-desktop octave jupyter-notebook code geogebra globalprotect-openconnect marker kvantum texlive-basic texlive-latexextra texlive-latexrecommended texlive-mathscience texlive-plaingeneric texlive-xetex texstudio pdfarranger libreoffice-fresh libreoffice-extension-texmaths micro remmina hunspell hunspell-en_us fastfetch
 
 yay -S openblas-lapack
 yay -S gimp-devel fcitx5-openbangla-git joplin-appimage noto-fonts-emoji-apple etcher-bin annotator numbat-bin julia-bin megasync-bin dropbox stellarium-bin parabolic tex-match-bin boop-gtk-bin zoom simplescreenrecorder freetube-bin github-desktop-bin
+
+## Create a mock neofetch wrapper for fastfetch, because I remember neofetch more
+sudo ln -s /usr/bin/fastfetch /usr/bin/neofetch
 
 ## Afterwards, add appropriate lines to `/etc/environment` from https://github.com/archisman-panigrahi/dotfiles.git.
 
