@@ -45,6 +45,12 @@ sudo apt full-upgrade -y
 # Joplin needs to be configured manually without root
 # wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
+## GoogleDot Red cursors
+cd /tmp
+wget https://github.com/ful1e5/Google_Cursor/releases/download/v2.0.0/GoogleDot-Red.tar.gz
+tar -xvf GoogleDot-Red.tar.gz
+sudo mv GoogleDot-* /usr/share/icons/
+
 sudo apt clean
 sudo apt autoremove -y
 sudo updatedb
