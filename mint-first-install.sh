@@ -37,8 +37,8 @@ sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape remm
 
 ## Remove neofetch and create a mock neofetch wrapper for fastfetch, because I remember neofetch more
 
-sudo apt remove neofetch -y
-sudo ln -s /usr/bin/fastfetch /usr/bin/neofetch
+#sudo apt remove neofetch -y
+#sudo ln -s /usr/bin/fastfetch /usr/bin/neofetch
 
 # Joplin needs to be configured manually without root
 # wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
