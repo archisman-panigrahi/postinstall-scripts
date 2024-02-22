@@ -34,7 +34,7 @@ git clone https://github.com/foundObjects/zram-swap.git
 cd zram-swap/
 sudo ./install.sh
 
-sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape remmina cheese pdfarranger python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook github-desktop cpufetch plank ibus-avro python3-octave-kernel vlc okular texstudio texlive-full code stellarium gparted safeeyes telegram papirus-icon-theme fonts-junicode fonts-noto-color-emoji numbat -y
+sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape remmina cheese pdfarranger micro python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook github-desktop cpufetch plank ibus-avro python3-octave-kernel vlc okular texstudio texlive-full code stellarium gparted safeeyes telegram papirus-icon-theme fonts-junicode fonts-noto-color-emoji numbat -y
 sudo apt full-upgrade -y
 
 ## Remove neofetch and create a mock neofetch wrapper for fastfetch, because I remember neofetch more
