@@ -57,6 +57,12 @@ sudo mkdir -p -m 755 /etc/apt/keyrings && wget -qO- https://cli.github.com/packa
 && sudo apt update \
 && sudo apt install gh -y
 
+## Megasync
+wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb 
+sudo apt install "$PWD/megasync-xUbuntu_22.04_amd64.deb" -y
+wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/nemo-megasync-xUbuntu_22.04_amd64.deb
+sudo apt install "$PWD/nemo-megasync-xUbuntu_22.04_amd64.deb" -y
+
 sudo apt clean
 sudo apt autoremove -y
 sudo updatedb
