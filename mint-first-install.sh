@@ -41,6 +41,8 @@ sudo apt install tlp
 sudo systemctl enable tlp.service
 sudo tlp start
 
+sudo apt remove thunderbird -y
+
 ## Remove neofetch and create a mock neofetch wrapper for fastfetch, because I remember neofetch more
 
 #sudo apt remove neofetch -y
