@@ -63,6 +63,13 @@ sudo apt install "$PWD/megasync-xUbuntu_22.04_amd64.deb" -y
 wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/nemo-megasync-xUbuntu_22.04_amd64.deb
 sudo apt install "$PWD/nemo-megasync-xUbuntu_22.04_amd64.deb" -y
 
+## Dropbox
+wget https://linux.dropbox.com/packages/ubuntu/dropbox_2020.03.04_amd64.deb
+sudo apt install "$PWD/dropbox_2020.03.04_amd64.deb" -y
+sudo apt install nemo-dropbox
+
+sudo rm -rf *.deb
+
 sudo apt clean
 sudo apt autoremove -y
 sudo updatedb
