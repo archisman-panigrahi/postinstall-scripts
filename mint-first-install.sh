@@ -38,6 +38,7 @@ sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape remm
 sudo apt full-upgrade -y
 
 sudo apt install tlp
+sudo systemctl enable tlp.service
 sudo tlp start
 
 ## Remove neofetch and create a mock neofetch wrapper for fastfetch, because I remember neofetch more
