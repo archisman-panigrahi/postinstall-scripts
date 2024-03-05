@@ -80,3 +80,9 @@ sudo apt clean
 sudo apt autoremove -y
 sudo updatedb
 
+
+## Chromebook Sarien keyboard
+if (grep -E "^(Sarien)$" /sys/class/dmi/id/product_name &> /dev/null)
+then
+sudo bash ubuntu-chromebook-sarien-keyboard-conf.sh
+fi
