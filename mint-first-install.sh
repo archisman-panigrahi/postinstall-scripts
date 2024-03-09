@@ -86,3 +86,35 @@ if (grep -E "^(Sarien)$" /sys/class/dmi/id/product_name &> /dev/null)
 then
 sudo bash ubuntu-chromebook-sarien-keyboard-conf.sh
 fi
+
+## TeXMatch
+
+cd /tmp
+wget https://github.com/zoeyfyi/TeX-Match/releases/download/v1.2.0/tex-match.linux.amd64
+chmod +x tex-match.linux.amd64
+wget https://github.com/zoeyfyi/TeX-Match/raw/v1.2.0/resources/icons/scalable/apps/fyi.zoey.TeX-Match.svg
+
+wget https://raw.githubusercontent.com/zoeyfyi/TeX-Match/v1.2.0/data/fyi.zoey.TeX-Match.desktop
+chmod +x fyi.zoey.TeX-Match.desktop
+
+sudo mv fyi.zoey.TeX-Match.svg /usr/share/icons/hicolor/scalable/apps/fyi.zoey.TeX-Match.svg
+sudo mv tex-match.linux.amd64 /usr/bin/tex-match
+sudo mv fyi.zoey.TeX-Match.desktop /usr/share/applications
+
+
+## Boop GTK
+
+cd /tmp
+wget https://github.com/zoeyfyi/Boop-GTK/releases/download/v1.7.1/boop-gtk.linux.amd64
+chmod +x boop-gtk.linux.amd64
+wget https://raw.githubusercontent.com/zoeyfyi/Boop-GTK/trunk/data/fyi.zoey.Boop-GTK.svg
+
+wget https://raw.githubusercontent.com/zoeyfyi/Boop-GTK/trunk/data/fyi.zoey.Boop-GTK.desktop
+chmod +x fyi.zoey.Boop-GTK.desktop
+
+sudo mv fyi.zoey.Boop-GTK.svg /usr/share/icons/hicolor/scalable/apps/fyi.zoey.Boop-GTK.svg
+sudo mv boop-gtk.linux.amd64 /usr/bin/boop-gtk
+sudo mv fyi.zoey.Boop-GTK.desktop /usr/share/applications
+
+## Update icon cache
+sudo update-icon-caches /usr/share/icons/*
