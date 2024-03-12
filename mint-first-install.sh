@@ -30,6 +30,7 @@ curl -fsSL https://install.julialang.org | sh -s -- -y
 
 gsettings set org.cinnamon.desktop.wm.preferences button-layout "close,minimize,maximize:"
 
+cd /tmp
 git clone https://github.com/foundObjects/zram-swap.git
 cd zram-swap/
 sudo ./install.sh
