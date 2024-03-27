@@ -9,8 +9,9 @@ sudo add-apt-repository ppa:apandada1/wike -y
 sudo add-apt-repository ppa:atareao/telegram -y
 sudo add-apt-repository ppa:papirus/papirus -y
 sudo add-apt-repository ppa:apandada1/numbat -y
+sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y
 
-sudo apt install wget gpg -y
+sudo apt install wget gpg curl -y
 
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
@@ -30,7 +31,7 @@ git clone https://github.com/foundObjects/zram-swap.git
 cd zram-swap/
 sudo ./install.sh
 
-sudo apt install foliate octave wike xournalpp marker blanket gimp inkscape remmina kamoso pdfarranger micro python-is-python3 python3-numpy python3-scipy jupyter-notebook github-desktop cpufetch ibus-avro python3-octave-kernel vlc okular texstudio texlive-full code stellarium partitionmanager safeeyes telegram papirus-icon-theme fonts-junicode fonts-noto-color-emoji numbat -y
+sudo apt install htop foliate octave wike xournalpp marker blanket gimp inkscape remmina kamoso pdfarranger micro python-is-python3 python3-numpy python3-scipy jupyter-notebook github-desktop cpufetch ibus-avro python3-octave-kernel vlc okular texstudio texlive-full code stellarium kalzium partitionmanager safeeyes telegram papirus-icon-theme fonts-junicode fonts-noto-color-emoji numbat -y
 sudo apt full-upgrade -y
 
 sudo apt install tlp
@@ -41,8 +42,9 @@ sudo apt remove thunderbird -y
 
 ## Remove neofetch and create a mock neofetch wrapper for fastfetch, because I remember neofetch more
 
-#sudo apt remove neofetch -y
-#sudo ln -s /usr/bin/fastfetch /usr/bin/neofetch
+sudo apt install fastfetch -y
+sudo apt remove neofetch -y
+sudo ln -s /usr/bin/fastfetch /usr/bin/neofetch
 
 # Joplin needs to be configured manually without root
 # wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
