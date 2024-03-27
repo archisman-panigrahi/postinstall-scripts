@@ -1,0 +1,28 @@
+"use strict";_F_installCss(".N7rBcd{overflow-x:auto}sentinel{}");
+this.default_AccountsSignInUi=this.default_AccountsSignInUi||{};(function(_){var window=this;
+try{
+_.Sf(_.mna);
+_.k("sOXFj");
+var mr=function(a){_.I.call(this,a.Ia)};_.A(mr,_.I);mr.Na=_.I.Na;mr.Ba=_.I.Ba;mr.prototype.aa=function(a){return a()};_.gr(_.lna,mr);
+_.l();
+_.k("oGtAuc");
+_.$sa=new _.Uk(_.mna);
+_.l();
+_.k("q0xTif");
+var $ta=function(a){var b=function(d){_.xm(d)&&(_.xm(d).xc=null,_.Ar(d,null));d.XyHi9&&(d.XyHi9=null)};b(a);a=a.querySelectorAll("[c-wiz]");for(var c=0;c<a.length;c++)b(a[c])},Mr=function(a){_.Kp.call(this,a.Ia);this.Qa=this.dom=null;if(this.hi()){var b=_.Wk(this.Df(),[_.tl,_.sl]);b=_.$h([b[_.tl],b[_.sl]]).then(function(c){this.Qa=c[0];this.dom=c[1]},null,this);_.Zq(this,b)}this.Ma=a.oh.i8};_.A(Mr,_.Kp);Mr.Ba=function(){return{oh:{i8:function(){return _.If(this)}}}};Mr.prototype.getContext=function(a){return this.Ma.getContext(a)};
+Mr.prototype.getData=function(a){return this.Ma.getData(a)};Mr.prototype.wn=function(){_.mq(this.dom.ue())};Mr.prototype.VY=function(){};_.Nr=function(a,b){_.Lp(b);a&&_.Rk.Pb().register(a,b)};_.L=function(a){Mr.call(this,a.Ia);var b=this,c=a.context.b8;this.ja=c.qo;this.Dc=this.La=this.Va=this.ta=null;this.Ka=a.Fa.gg;this.Sa=a.Fa.Xea;a=this.ja.ja.then(function(d){b.ta=d;d=b.ja.id.G_(d,b.ja.getParams());b.Va=d.variant});c=c.sV.then(function(d){b.La=d});this.Ga=this.Ga.bind(this);_.Zq(this,_.$h([a,c]))};_.A(_.L,Mr);_.L.Ba=function(){return{context:{b8:"FVxLkf"},Fa:{gg:_.kr,component:_.Fr,Xea:_.$sa}}};_.L.prototype.aa=function(){return""};_.L.prototype.Ca=function(){return!1};
+_.L.prototype.Zl=function(){return this.ja};var Or=function(a){var b=_.xb(a.La,a.Ga);b={ib:a.ja.getParams(),f7:a.ja.Ca,cb:{g_:!1,ib:a.ja.getParams(),Jb:a.ja.id.Ga,eI:a.ja.aD,Gb:a.aa(),jsdata:_.zb(a.ta)},qc:b,Wja:a.Va};Object.assign(b,a.ta||{});Object.assign(b,a.ja.da);Object.assign(b.cb,a.ja.da);return b};_.L.prototype.Ga=function(a,b){return Array.isArray(a)?1!=a.length||(b=this.ja.id.getChildren()[b],b&&b.Qt)?_.hf(a,function(c){return Or(c)}):Or(a[0]):Or(a)};_.L.prototype.fa=function(){return null};
+var aua=function(a){var b=a.da();return function(){var c=_.Vb.apply(0,arguments);return a.Sa.aa(function(){return b.apply(null,_.Kf(c))})}},bua=function(a){var b=a.fa();return b?function(){var c=_.Vb.apply(0,arguments);return a.Sa.aa(function(){return b.apply(null,_.Kf(c))})}:b};_.L.prototype.render=function(){var a=Or(this),b=aua(this);b=this.Ca()?cua(this,b,a):this.Qa.Hc(b,a);this.fa()&&(a=dua(this,a),b.appendChild(a));(a=this.ja.id.pN())&&0<a.length&&a.forEach(function(){});this.ja.aa(b);return b};
+var dua=function(a,b){var c=a.dom.aa.aa.createElement("view-header");c.style.display="none";var d=bua(a);b={ib:a.ja.getParams()};a.Ca()?a.Ka.ez(c,d,b):(a=a.Qa.fQ(d,b),c.appendChild(a));return c},cua=function(a,b,c){var d=a.dom.aa.aa.createElement("div");a.Ka.ez(d,b,c);return 1==d.childNodes.length?d.firstChild:d};_.L.prototype.VY=function(a){var b=Or(this),c=aua(this);$ta(a);this.Ka.Zj(a,c,b);this.Zl().aa(a);this.fa()&&(b=dua(this,b),b=(new _.rn(b)).hc(),_.Gf(_.yh(a).body,_.Zta,b))};_.Nr(_.Lr,_.L);
+_.l();
+_.Gy=function(a){var b=_.O,c=_.ej(a.kd,15);a=_.U("a",null!=c?c:null)(null,a);return b("<title>"+_.Ww(a)+"</title>")};
+_.T("ba","",0,function(){return _.Fy()});
+_.T("ba","",1,function(a){return a.f_?_.Fy():""});
+_.k("ZZ4WUe");
+var sPa=function(a,b){var c=a.ib,d=_.O;a=a.cb;var e=_.O,f=(0,_.O)(""+_.P("Sorry, something went wrong there. Try again.")),h=(0,_.O)('<pre class="'+_.W("N7rBcd")+'" jsname="'+_.W("H5iMZd")+'"></pre>');c=_.U("ba")({f_:_.aj(c,1,!0)},b);return d(_.yB({cb:a,jscontroller:"eVCnO",jsaction:"jiqeKb:UHZ0U;rcuQ6b:WYd",content:e(""+_.zB({title:"Something went wrong",subtitle:f,description:h,Cd:c},b))},b))},tPa=function(a,b){return(0,_.O)(_.Gy(b))},AB=function(a){_.L.call(this,a.Ia)};_.A(AB,_.L);AB.Ba=_.L.Ba;
+AB.prototype.aa=function(){return"ZZ4WUe"};AB.prototype.da=function(){return sPa};AB.prototype.fa=function(){return tPa};_.Nr(_.Kxa,AB);_.rr.ZZ4WUe=_.Mxa;
+
+_.l();
+}catch(e){_._DumpException(e)}
+}).call(this,this.default_AccountsSignInUi);
+// Google Inc.
