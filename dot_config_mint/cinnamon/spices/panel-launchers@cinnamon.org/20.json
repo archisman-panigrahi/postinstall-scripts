@@ -1,0 +1,29 @@
+{
+    "section1": {
+        "type": "section",
+        "description": "Behavior"
+    },
+    "launcherList": {
+        "type": "generic",
+        "default": [
+            "firefox.desktop",
+            "org.gnome.Terminal.desktop",
+            "nemo.desktop"
+        ],
+        "value": [
+            "numbat.desktop",
+            "org.gnome.Screenshot.desktop",
+            "dropbox.desktop",
+            "megasync.desktop",
+            "code.desktop",
+            "org.telegram.desktop._18faa92ddda377ceaa5a576303af9e59.desktop"
+        ]
+    },
+    "allow-dragging": {
+        "type": "switch",
+        "default": true,
+        "description": "Allow dragging of launchers",
+        "value": true
+    },
+    "__md5__": "366f8e129abf9622014c95f26ce5aa0f"
+}
