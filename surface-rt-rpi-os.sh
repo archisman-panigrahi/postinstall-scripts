@@ -8,6 +8,7 @@ sudo apt-get install build-essential libx11-dev libxtst-dev libxi-dev x11proto-r
 cd twofing
 make
 sudo make install
+twofing /dev/input/event3
 
 #sudo nano /etc/udev/rules.d/70-touchscreen-egalax.rules
 #KERNEL=="event*",ATTRS{name}=="FT5406 memory based driver",SYMLINK+="twofingtouch",RUN+="/bin/chmod a+r /dev/twofingtouch"
