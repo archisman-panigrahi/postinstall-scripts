@@ -69,7 +69,7 @@ sudo apt install -y ./marker_2023.05.02-1~202304282146~ubuntu22.04.1_armhf.deb
 
 ## General software from the repositories
 sudo apt install -y okular --no-install-recommends
-sudo apt install -y foliate plocate onboard ibus-avro neofetch gparted octave jupyter
+sudo apt install -y foliate plocate onboard ibus-avro gparted octave jupyter inkscape gitmp xournalpp btop
 sudo updatedb
 sudo apt remove evince -y
 sudo apt dist-upgrade -y
