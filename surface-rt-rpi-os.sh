@@ -61,4 +61,6 @@ sudo apt install -y ./marker_2023.05.02-1~202304282146~ubuntu22.04.1_armhf.deb
 
 ## General software from the repositories
 sudo apt install -y okular --no-install-recommends
-sudo apt install -y foliate
+sudo apt install -y foliate plocate
+sudo updatedb
+sudo apt dist-upgrade -y
