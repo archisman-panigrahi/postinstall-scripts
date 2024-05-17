@@ -2,14 +2,13 @@ sudo apt update
 sudo apt install git -y
 
 ## twofing
-cd /tmp
-git clone https://github.com/plippo/twofing
-sudo apt install -y build-essential libx11-dev libxtst-dev libxi-dev x11proto-randr-dev libxrandr-dev xserver-xorg-input-evdev xserver-xorg-input-evdev-dev
-cd twofing
-make
-sudo make install
-twofing /dev/input/event3
-
+#cd /tmp
+#git clone https://github.com/plippo/twofing
+#sudo apt install -y build-essential libx11-dev libxtst-dev libxi-dev x11proto-randr-dev libxrandr-dev xserver-xorg-input-evdev xserver-xorg-input-evdev-dev
+#cd twofing
+#make
+#sudo make install
+#twofing /dev/input/event3
 #sudo nano /etc/udev/rules.d/70-touchscreen-egalax.rules
 #KERNEL=="event*",ATTRS{name}=="FT5406 memory based driver",SYMLINK+="twofingtouch",RUN+="/bin/chmod a+r /dev/twofingtouch"
 
@@ -61,6 +60,6 @@ sudo apt install -y ./marker_2023.05.02-1~202304282146~ubuntu22.04.1_armhf.deb
 
 ## General software from the repositories
 sudo apt install -y okular --no-install-recommends
-sudo apt install -y foliate plocate
+sudo apt install -y foliate plocate onboard
 sudo updatedb
 sudo apt dist-upgrade -y
