@@ -34,7 +34,7 @@ Type=Application
 Terminal=false
 Name=rpi-backlight GUI
 Exec=rpi-backlight-gui
-Icon=/usr/share/icons/Adwaita/symbolic/status/display-brightness-symbolic.svg
+Icon=/usr/share/icons/Adwaita/scalable/status/display-brightness-symbolic.svg
 Categories=Utility;
 EOL
 
