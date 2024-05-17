@@ -32,6 +32,11 @@ sudo dpkg -i numbat_1.11.0_armhf.deb
 cd
 curl -fsSL https://install.julialang.org | sh
 
-## General software
+## Marker
+cd /tmp
+wget https://launchpad.net/~apandada1/+archive/ubuntu/marker/+files/marker_2023.05.02-1~202304282146~ubuntu22.04.1_armhf.deb
+sudo apt install ./marker_2023.05.02-1~202304282146~ubuntu22.04.1_armhf.deb
+
+## General software from the repositories
 sudo apt install okular --no-install-recommends
 sudo apt install foliate
