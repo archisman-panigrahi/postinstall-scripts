@@ -20,12 +20,17 @@ cd surface-RT-screen-rotator
 bash setup.sh
 
 ## Pi Apps
+cd
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 
 ## Numbat
 cd /tmp
 wget https://github.com/sharkdp/numbat/releases/download/v1.11.0/numbat_1.11.0_armhf.deb
 sudo dpkg -i numbat_1.11.0_armhf.deb
+
+## Julia
+cd
+curl -fsSL https://install.julialang.org | sh
 
 ## General software
 sudo apt install okular --no-install-recommends
