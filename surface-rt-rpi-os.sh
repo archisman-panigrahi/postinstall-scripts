@@ -1,3 +1,5 @@
+# do NOT run with sudo
+
 sudo apt update
 sudo apt install git -y
 
@@ -71,6 +73,14 @@ sudo apt install -y ./freetube_0.20.0_armv7l.deb
 cd /tmp
 wget https://launchpad.net/~apandada1/+archive/ubuntu/marker/+files/marker_2023.05.02-1~202304282146~ubuntu22.04.1_armhf.deb
 sudo apt install -y ./marker_2023.05.02-1~202304282146~ubuntu22.04.1_armhf.deb
+
+## Grate Driver
+sudo apt install libdrm-dev libtool m4 autoconf bison flex xutils-dev xserver-xorg-dev
+git clone https://github.com/grate-driver/xf86-video-opentegra
+cd xf86-video-opentegra
+./autogen.sh
+make -j4
+sudo make install
 
 ## General software from the repositories
 sudo apt install -y okular --no-install-recommends
