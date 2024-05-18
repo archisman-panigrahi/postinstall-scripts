@@ -62,6 +62,11 @@ rm -rf julia-1.6.7-linux-armv7l.tar.gz
 home_dir=$(pwd)
 ln -s ${home_dir}/julia-1.6.7/bin/julia ${home_dir}/.local/bin/julia
 
+## Freetube
+cd /tmp
+wget https://github.com/FreeTubeApp/FreeTube/releases/download/v0.20.0-beta/freetube_0.20.0_armv7l.deb
+sudo apt install -y ./freetube_0.20.0_armv7l.deb
+
 ## Marker
 cd /tmp
 wget https://launchpad.net/~apandada1/+archive/ubuntu/marker/+files/marker_2023.05.02-1~202304282146~ubuntu22.04.1_armhf.deb
