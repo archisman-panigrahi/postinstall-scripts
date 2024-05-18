@@ -1,5 +1,7 @@
-# do NOT run this script with sudo
-# Instead run it with `bash surface-rt-rpi-os.sh`
+#!/bin/bash
+
+### Do NOT run this script with sudo
+### Instead run it with `bash surface-rt-rpi-os.sh`
 
 sudo apt update
 sudo apt install git -y
