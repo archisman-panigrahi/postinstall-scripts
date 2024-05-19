@@ -51,7 +51,7 @@ sudo make install
 
 ### Screen Rotation Script
 cd /tmp
-wget https://raw.githubusercontent.com/archisman-panigrahi/postinstall-scripts/main/srt-screen-rotation.sh
+wget https://raw.githubusercontent.com/archisman-panigrahi/surface-RT-screen-rotator/surface-rt/srt-screen-rotation-setup.sh
 bash srt-brightness-screen-rotation.sh
 
 ### Brightness Script
