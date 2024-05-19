@@ -13,15 +13,13 @@ sudo apt install -y build-essential libx11-dev libxtst-dev libxi-dev x11proto-ra
 cd twofing
 make
 sudo make install
-#twofing /dev/input/event3
-#sudo nano /etc/udev/rules.d/70-touchscreen-egalax.rules
-#KERNEL=="event*",ATTRS{name}=="FT5406 memory based driver",SYMLINK+="twofingtouch",RUN+="/bin/chmod a+r /dev/twofingtouch"
 
 ## Screen Orientation Manager
 cd
 git clone https://github.com/archisman-panigrahi/surface-RT-screen-rotator
 cd surface-RT-screen-rotator
 bash setup.sh
+cp $HOME/.local/share/applications/surface-rt-screen-rotator.desktop $HOME/.config/autostart/
 
 ## Brightness Script
 pip3 install --user rpi-backlight --break-system-packages
