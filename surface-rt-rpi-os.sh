@@ -49,9 +49,14 @@ cd xf86-video-opentegra
 make -j4
 sudo make install
 
-### Brightness and Screen Rotation Script
+### Screen Rotation Script
 cd /tmp
-wget https://raw.githubusercontent.com/archisman-panigrahi/postinstall-scripts/main/srt-brightness-screen-rotation.sh
+wget https://raw.githubusercontent.com/archisman-panigrahi/postinstall-scripts/main/srt-screen-rotation.sh
+bash srt-brightness-screen-rotation.sh
+
+### Brightness Script
+cd /tmp
+wget https://raw.githubusercontent.com/archisman-panigrahi/postinstall-scripts/main/srt-brightness.sh
 bash srt-brightness-screen-rotation.sh
 
 ## General software from the repositories
