@@ -11,6 +11,8 @@ sudo add-apt-repository ppa:papirus/papirus -y
 sudo add-apt-repository ppa:apandada1/numbat -y
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator -y
+sudo add-apt-repository ppa:safeeyes-team/safeeyes -y
+sudo bash -c "$(curl -fsSL https://pacstall.dev/q/install)"
 
 sudo apt install wget gpg curl -y
 
