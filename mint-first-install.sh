@@ -26,14 +26,12 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-package
 
 sudo apt update
 
-# Juliup needs to be run without root
-# curl -fsSL https://install.julialang.org | sh -s -- -y
 
 #mkdir "${HOME}/.npm-packages"
 #sudo apt install npm -y && npm config set prefix "${HOME}/.npm-packages"
 #npm install -g insect
 
-
+sudo apt install fonts-noto-core
 
 cd /tmp
 git clone https://github.com/foundObjects/zram-swap.git
