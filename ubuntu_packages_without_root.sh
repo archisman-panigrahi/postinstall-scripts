@@ -7,5 +7,5 @@ wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_
 gsettings set org.cinnamon.desktop.wm.preferences button-layout "close,minimize,maximize:"
 
 sudo bash -c "$(curl -fsSL https://pacstall.dev/q/install)" -y
-pacstall -I freetube
+pacstall -I freetube-deb
 
