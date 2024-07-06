@@ -31,7 +31,7 @@ sudo apt update
 #sudo apt install npm -y && npm config set prefix "${HOME}/.npm-packages"
 #npm install -g insect
 
-sudo apt install fonts-noto-core
+sudo apt install fonts-noto-core -y
 
 cd /tmp
 git clone https://github.com/foundObjects/zram-swap.git
