@@ -12,6 +12,7 @@ sudo add-apt-repository ppa:apandada1/numbat -y
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator -y
 sudo add-apt-repository ppa:safeeyes-team/safeeyes -y
+sudo add-apt-repository ppa:xtradeb/apps -y
 sudo bash -c "$(curl -fsSL https://pacstall.dev/q/install)"
 
 sudo apt install wget gpg curl -y
@@ -40,7 +41,7 @@ git clone https://github.com/foundObjects/zram-swap.git
 cd zram-swap/
 sudo ./install.sh
 
-sudo apt install htop foliate octave wike xournalpp marker blanket gimp inkscape remmina cheese gnome-video-effects-frei0r gnome-video-effects-extra pdfarranger micro python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook github-desktop cpufetch plank ibus-avro gcolor3 python3-octave-kernel vlc okular texstudio texlive-full code stellarium kalzium gparted safeeyes telegram papirus-icon-theme fonts-junicode fonts-noto-color-emoji numbat com.github.phase1geo.annotator -y
+sudo apt install htop foliate octave wike xournalpp marker blanket gimp inkscape remmina cheese gnome-video-effects-frei0r gnome-video-effects-extra pdfarranger micro python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook github-desktop cpufetch plank ibus-avro gcolor3 python3-octave-kernel vlc okular texstudio texlive-full code stellarium kalzium gparted safeeyes telegram papirus-icon-theme fonts-junicode fonts-noto-color-emoji numbat com.github.phase1geo.annotator parabolic -y
 sudo apt full-upgrade -y
 
 sudo apt install tlp
