@@ -88,6 +88,9 @@ then
   sudo bash ubuntu-chromebook-sarien-keyboard-conf.sh
 fi
 
+## Fix apparmor issue
+echo 'kernel.apparmor_restrict_unprivileged_userns = 0' | 
+  sudo tee /etc/sysctl.d/20-apparmor-etcher.conf
 
 RELEASE=$(grep RELEASE /etc/linuxmint/info | cut -d'=' -f2)
 VERSION=$(echo $RELEASE | cut -d'.' -f1)
