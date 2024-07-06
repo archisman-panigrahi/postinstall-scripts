@@ -94,20 +94,29 @@ then
 sudo bash ubuntu-chromebook-sarien-keyboard-conf.sh
 fi
 
-## TeXMatch
 
-cd /tmp
-wget https://github.com/zoeyfyi/TeX-Match/releases/download/v1.2.0/tex-match.linux.amd64
-chmod +x tex-match.linux.amd64
-wget https://github.com/zoeyfyi/TeX-Match/raw/v1.2.0/resources/icons/scalable/apps/fyi.zoey.TeX-Match.svg
+RELEASE=$(grep RELEASE /etc/linuxmint/info | cut -d'=' -f2)
+VERSION=$(echo $RELEASE | cut -d'.' -f1)
 
-wget https://raw.githubusercontent.com/zoeyfyi/TeX-Match/v1.2.0/data/fyi.zoey.TeX-Match.desktop
-chmod +x fyi.zoey.TeX-Match.desktop
+if (( VERSION >= 22 )); then
+    sudo add-apt-repository ppa:apandada1/hieroglyphic -y
+    sudo apt update
+    sudo apt install hieroglyphic -y
+else
+  ## TeXMatch
 
-sudo mv fyi.zoey.TeX-Match.svg /usr/share/icons/hicolor/scalable/apps/fyi.zoey.TeX-Match.svg
-sudo mv tex-match.linux.amd64 /usr/bin/tex-match
-sudo mv fyi.zoey.TeX-Match.desktop /usr/share/applications
+  cd /tmp
+  wget https://github.com/zoeyfyi/TeX-Match/releases/download/v1.2.0/tex-match.linux.amd64
+  chmod +x tex-match.linux.amd64
+  wget https://github.com/zoeyfyi/TeX-Match/raw/v1.2.0/resources/icons/scalable/apps/fyi.zoey.TeX-Match.svg
 
+  wget https://raw.githubusercontent.com/zoeyfyi/TeX-Match/v1.2.0/data/fyi.zoey.TeX-Match.desktop
+  chmod +x fyi.zoey.TeX-Match.desktop
+
+  sudo mv fyi.zoey.TeX-Match.svg /usr/share/icons/hicolor/scalable/apps/fyi.zoey.TeX-Match.svg
+  sudo mv tex-match.linux.amd64 /usr/bin/tex-match
+  sudo mv fyi.zoey.TeX-Match.desktop /usr/share/applications
+fi
 
 ## Boop GTK
 
