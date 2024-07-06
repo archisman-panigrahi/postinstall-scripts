@@ -13,7 +13,6 @@ sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator -y
 sudo add-apt-repository ppa:safeeyes-team/safeeyes -y
 sudo add-apt-repository ppa:xtradeb/apps -y
-sudo bash -c "$(curl -fsSL https://pacstall.dev/q/install)"
 
 sudo apt install wget gpg curl -y
 
@@ -34,17 +33,17 @@ sudo apt update
 #sudo apt install npm -y && npm config set prefix "${HOME}/.npm-packages"
 #npm install -g insect
 
-gsettings set org.cinnamon.desktop.wm.preferences button-layout "close,minimize,maximize:"
+
 
 cd /tmp
 git clone https://github.com/foundObjects/zram-swap.git
 cd zram-swap/
 sudo ./install.sh
 
-sudo apt install htop foliate octave wike xournalpp marker blanket gimp inkscape remmina cheese gnome-video-effects-frei0r gnome-video-effects-extra pdfarranger micro python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook github-desktop cpufetch plank ibus-avro gcolor3 python3-octave-kernel vlc okular texstudio texlive-full code stellarium kalzium gparted safeeyes telegram papirus-icon-theme fonts-junicode fonts-noto-color-emoji numbat com.github.phase1geo.annotator parabolic -y
+sudo apt install htop foliate octave wike xournalpp marker blanket gimp inkscape remmina cheese gnome-video-effects-frei0r gnome-video-effects-extra pdfarranger micro python-is-python3 python3-numpy python3-scipy mypaint jupyter-notebook github-desktop cpufetch plank ibus-avro gcolor3 python3-octave-kernel vlc okular texstudio texlive-full code stellarium kalzium gparted safeeyes telegram papirus-icon-theme fonts-junicode fonts-noto-color-emoji numbat com.github.phase1geo.annotator parabolic redshift -y
 sudo apt full-upgrade -y
 
-sudo apt install tlp
+sudo apt install tlp -y
 sudo systemctl enable tlp.service
 sudo tlp start
 
@@ -94,7 +93,7 @@ fi
 RELEASE=$(grep RELEASE /etc/linuxmint/info | cut -d'=' -f2)
 VERSION=$(echo $RELEASE | cut -d'.' -f1)
 
-if (( VERSION >= 22 )); then
+# if (( VERSION >= 22 )); then
   ## Hierophyphic
   sudo add-apt-repository ppa:apandada1/hieroglyphic -y
   sudo apt update
@@ -105,27 +104,27 @@ if (( VERSION >= 22 )); then
   sudo apt install "$PWD/megasync-xUbuntu_24.04_amd64.deb" -y
   wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/nemo-megasync-xUbuntu_24.04_amd64.deb
   sudo apt install "$PWD/nemo-megasync-xUbuntu_24.04_amd64.deb" -y
-else
-  ## TeXMatch
+# else
+#   ## TeXMatch
 
-  cd /tmp
-  wget https://github.com/zoeyfyi/TeX-Match/releases/download/v1.2.0/tex-match.linux.amd64
-  chmod +x tex-match.linux.amd64
-  wget https://github.com/zoeyfyi/TeX-Match/raw/v1.2.0/resources/icons/scalable/apps/fyi.zoey.TeX-Match.svg
+#   cd /tmp
+#   wget https://github.com/zoeyfyi/TeX-Match/releases/download/v1.2.0/tex-match.linux.amd64
+#   chmod +x tex-match.linux.amd64
+#   wget https://github.com/zoeyfyi/TeX-Match/raw/v1.2.0/resources/icons/scalable/apps/fyi.zoey.TeX-Match.svg
 
-  wget https://raw.githubusercontent.com/zoeyfyi/TeX-Match/v1.2.0/data/fyi.zoey.TeX-Match.desktop
-  chmod +x fyi.zoey.TeX-Match.desktop
+#   wget https://raw.githubusercontent.com/zoeyfyi/TeX-Match/v1.2.0/data/fyi.zoey.TeX-Match.desktop
+#   chmod +x fyi.zoey.TeX-Match.desktop
 
-  sudo mv fyi.zoey.TeX-Match.svg /usr/share/icons/hicolor/scalable/apps/fyi.zoey.TeX-Match.svg
-  sudo mv tex-match.linux.amd64 /usr/bin/tex-match
-  sudo mv fyi.zoey.TeX-Match.desktop /usr/share/applications
+#   sudo mv fyi.zoey.TeX-Match.svg /usr/share/icons/hicolor/scalable/apps/fyi.zoey.TeX-Match.svg
+#   sudo mv tex-match.linux.amd64 /usr/bin/tex-match
+#   sudo mv fyi.zoey.TeX-Match.desktop /usr/share/applications
 
-  ## Megasync
-  wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb 
-  sudo apt install "$PWD/megasync-xUbuntu_22.04_amd64.deb" -y
-  wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/nemo-megasync-xUbuntu_22.04_amd64.deb
-  sudo apt install "$PWD/nemo-megasync-xUbuntu_22.04_amd64.deb" -y  
-fi
+#   ## Megasync
+#   wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb 
+#   sudo apt install "$PWD/megasync-xUbuntu_22.04_amd64.deb" -y
+#   wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/nemo-megasync-xUbuntu_22.04_amd64.deb
+#   sudo apt install "$PWD/nemo-megasync-xUbuntu_22.04_amd64.deb" -y  
+# fi
 
 ## Boop GTK
 
