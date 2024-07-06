@@ -70,11 +70,6 @@ sudo mkdir -p -m 755 /etc/apt/keyrings && wget -qO- https://cli.github.com/packa
 && sudo apt update \
 && sudo apt install gh -y
 
-## Megasync
-wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megasync-xUbuntu_24.04_amd64.deb 
-sudo apt install "$PWD/megasync-xUbuntu_24.04_amd64.deb" -y
-wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/nemo-megasync-xUbuntu_24.04_amd64.deb
-sudo apt install "$PWD/nemo-megasync-xUbuntu_24.04_amd64.deb" -y
 
 ## Dropbox
 wget https://linux.dropbox.com/packages/ubuntu/dropbox_2020.03.04_amd64.deb
@@ -103,6 +98,12 @@ if (( VERSION >= 22 )); then
   sudo add-apt-repository ppa:apandada1/hieroglyphic -y
   sudo apt update
   sudo apt install hieroglyphic -y
+
+  ## Megasync
+  wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megasync-xUbuntu_24.04_amd64.deb
+  sudo apt install "$PWD/megasync-xUbuntu_24.04_amd64.deb" -y
+  wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/nemo-megasync-xUbuntu_24.04_amd64.deb
+  sudo apt install "$PWD/nemo-megasync-xUbuntu_24.04_amd64.deb" -y
 else
   ## TeXMatch
 
@@ -117,6 +118,12 @@ else
   sudo mv fyi.zoey.TeX-Match.svg /usr/share/icons/hicolor/scalable/apps/fyi.zoey.TeX-Match.svg
   sudo mv tex-match.linux.amd64 /usr/bin/tex-match
   sudo mv fyi.zoey.TeX-Match.desktop /usr/share/applications
+
+  ## Megasync
+  wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb 
+  sudo apt install "$PWD/megasync-xUbuntu_22.04_amd64.deb" -y
+  wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/nemo-megasync-xUbuntu_22.04_amd64.deb
+  sudo apt install "$PWD/nemo-megasync-xUbuntu_22.04_amd64.deb" -y  
 fi
 
 ## Boop GTK
