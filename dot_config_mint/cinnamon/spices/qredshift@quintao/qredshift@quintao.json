@@ -224,7 +224,7 @@
         "units": "K",
         "step": 5,
         "description": "Temperature",
-        "value": 5229
+        "value": 5580
     },
     "dayBrightness": {
         "type": "spinbutton",
@@ -316,7 +316,7 @@
         "units": "K",
         "step": 5,
         "description": "Temperature",
-        "value": 3233
+        "value": 2782
     },
     "nightBrightness": {
         "type": "spinbutton",
@@ -327,7 +327,7 @@
         "units": "%",
         "step": 1,
         "description": "Brightness",
-        "value": 90
+        "value": 85
     },
     "locationRemote": {
         "type": "checkbox",

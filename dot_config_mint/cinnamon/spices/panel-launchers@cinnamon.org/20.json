@@ -15,8 +15,7 @@
             "org.gnome.Screenshot.desktop",
             "dropbox.desktop",
             "megasync.desktop",
-            "code.desktop",
-            "org.telegram.desktop._18faa92ddda377ceaa5a576303af9e59.desktop"
+            "code.desktop"
         ]
     },
     "allow-dragging": {
