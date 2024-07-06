@@ -8,4 +8,5 @@ gsettings set org.cinnamon.desktop.wm.preferences button-layout "close,minimize,
 
 sudo bash -c "$(curl -fsSL https://pacstall.dev/q/install)" -y
 pacstall -I freetube-deb
+pacstall -I zoom-deb
 
