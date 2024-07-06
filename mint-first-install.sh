@@ -52,6 +52,7 @@ sudo apt remove thunderbird -y
 sudo apt install fastfetch -y
 sudo apt remove neofetch -y
 sudo ln -s /usr/bin/fastfetch /usr/bin/neofetch
+sudo ln -s /usr/bin/fastfetch /usr/bin/ff
 
 # Joplin needs to be configured manually without root
 # wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
@@ -70,9 +71,9 @@ sudo mkdir -p -m 755 /etc/apt/keyrings && wget -qO- https://cli.github.com/packa
 
 
 ## Dropbox
-wget https://linux.dropbox.com/packages/ubuntu/dropbox_2020.03.04_amd64.deb
-sudo apt install "$PWD/dropbox_2020.03.04_amd64.deb" -y
-sudo apt install nemo-dropbox
+#wget https://linux.dropbox.com/packages/ubuntu/dropbox_2020.03.04_amd64.deb
+#sudo apt install "$PWD/dropbox_2020.03.04_amd64.deb" -y
+sudo apt install dropbox nemo-dropbox -y
 
 sudo rm -rf *.deb
 
@@ -140,3 +141,8 @@ sudo mv fyi.zoey.Boop-GTK.desktop /usr/share/applications
 
 ## Update icon cache
 sudo update-icon-caches /usr/share/icons/*
+
+## Delete bad Bangla fonts
+sudo rm -rf /usr/share/fonts/truetype/freefont/
+sudo rm -rf /usr/share/fonts/opentype/freefont/
+
