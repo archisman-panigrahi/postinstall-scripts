@@ -41,6 +41,6 @@ if __name__ == "__main__":
     new_brightness = adjust_brightness(current_brightness, action)
 
     if new_brightness is not None:
-        print(f"Current Brightness: {current_brightness}")
-        print(f"New Brightness: {new_brightness}")
+        #print(f"Current Brightness: {current_brightness}")
+        #print(f"New Brightness: {new_brightness}")
         subprocess.run(['rpi-backlight', '--set-brightness', str(new_brightness)])
