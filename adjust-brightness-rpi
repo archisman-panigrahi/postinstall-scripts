@@ -1,0 +1,46 @@
+#!/usr/bin/python3
+
+import subprocess
+import sys
+
+def get_brightness():
+    # Run the rpi-backlight command and capture its output
+    try:
+        result = subprocess.run(['rpi-backlight', '--get-brightness'], stdout=subprocess.PIPE, text=True)
+        brightness = int(result.stdout.strip())
+        return brightness
+    except Exception as e:
+        print(f"Error getting brightness: {e}")
+        return None
+
+def adjust_brightness(brightness, action):
+    if brightness is None:
+        return None
+
+    if action == "increase":
+        if brightness >= 90:
+            return 100
+        else:
+            return min(brightness + 10, 100)
+    elif action == "decrease":
+        if brightness <= 10:
+            return 5
+        else:
+            return max(brightness - 10, 5)
+    else:
+        print("Invalid action. Use 'increase' or 'decrease'.")
+        return None
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python adjust_brightness.py <increase|decrease>")
+        sys.exit(1)
+
+    action = sys.argv[1]
+    current_brightness = get_brightness()
+    new_brightness = adjust_brightness(current_brightness, action)
+
+    if new_brightness is not None:
+        print(f"Current Brightness: {current_brightness}")
+        print(f"New Brightness: {new_brightness}")
+        subprocess.run(['rpi-backlight', '--set-brightness', str(new_brightness)])
