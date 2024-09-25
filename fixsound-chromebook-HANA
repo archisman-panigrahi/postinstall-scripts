@@ -1,0 +1,2 @@
+cp asound.state $HOME/.config/
+sudo /usr/sbin/alsactl --file asound.state restore

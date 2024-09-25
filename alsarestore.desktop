@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Name=Fix Sound
+Exec=sudo /usr/sbin/alsactl --file $HOME/.config/asound.state restore
+Icon=yast_soundcard
+Categories=Settings;
+StartupNotify=true
