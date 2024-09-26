@@ -146,11 +146,6 @@ sudo mv fyi.zoey.Boop-GTK.desktop /usr/share/applications
 sudo update-icon-caches /usr/share/icons/*
 
 ## Replace bad Bangla fonts
-#sudo rm -rf /usr/share/fonts/truetype/freefont/
-#sudo rm -rf /usr/share/fonts/opentype/freefont/
-sudo cp fonts/NotoSans-Regular.otf /usr/share/fonts/opentype/freefont/FreeSans.otf
-sudo cp fonts/NotoSans-Regular.ttf /usr/share/fonts/truetype/freefont/FreeSans.ttf
-sudo cp fonts/NotoSans-Bold.otf /usr/share/fonts/opentype/freefont/FreeSansBold.otf
-sudo cp fonts/NotoSans-Bold.ttf /usr/share/fonts/truetype/freefont/FreeSansBold.ttf
+sudo bash fix-bangla-fonts.sh
 
 
