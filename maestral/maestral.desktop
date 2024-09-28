@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Maestral
+Icon=/home/archisman/.local/share/icons/hicolor/512x512/apps/maestral.png
+GenericName=File Synchroniser
+Comment=Sync your files with Dropbox
+TryExec=/home/archisman/.local/bin/maestral-activate.sh
+Exec=/home/archisman/.local/bin/maestral-activate.sh
+Hidden=false
+Terminal=false
+Categories=Network;FileTransfer;

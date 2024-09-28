@@ -1,0 +1,1 @@
+source $HOME/maestral-venv/bin/activate && maestral gui
