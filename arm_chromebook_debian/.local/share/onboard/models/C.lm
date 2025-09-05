@@ -1,0 +1,205 @@
+
+\data\
+ngram 1=64
+ngram 2=66
+ngram 3=62
+
+\1-grams:
+1 1 <unk>
+1 2 <s>
+1 3 </s>
+1 4 <num>
+5 119 <bot:url>
+5 122 https
+1 11 www
+1 14 google
+5 128 com
+2 99 search
+1 23 client
+1 26 firefox-b-e
+1 29 channel
+1 32 entpr
+3 77 q
+2 79 koreader
+2 65 duckduckgo
+2 71 t
+2 74 ftsa
+1 58 korede
+7 275 <bot:term>
+6 278 sudo
+7 281 apt
+4 274 install
+1 91 gdebi-gt
+1 92 gdebi-gtk
+3 140 gdebi
+1 106 lightdm-settings
+2 125 github
+2 131 slgobinath
+1 134 SafeEyes
+1 137 tab
+1 139 readme-ov-file
+1 141 --no-install-recommends
+2 190 cd
+1 145 cache
+1 148 gnupg
+1 151 mozilla
+1 154 Documents
+1 157 Music
+1 160 Public
+1 163 Videos
+1 166 config
+1 169 local
+1 172 Desktop
+3 238 Downloads
+1 178 Pictures
+1 181 Templates
+2 232 linux
+2 235 changeme
+1 204 deb
+4 271 remove
+1 208 gnome-
+1 211 gnome-accessibility-themes
+1 214 gnome-keyring-pkcs11
+1 217 gnome-themes-extra-data
+1 220 gnome-icon-theme
+2 249 gnome-system-monitor
+1 226 gnome-keyring
+1 229 gnome-themes-extra
+1 261 atril
+1 273 gparted
+1 277 su
+1 283 full-upgrade
+
+\2-grams:
+5 120 <bot:url> https
+1 9 https www
+2 63 https duckduckgo
+2 123 https github
+1 12 www google
+1 15 google com
+1 18 com search
+2 69 com t
+2 129 com slgobinath
+1 21 search client
+1 100 search gdebi
+1 24 client firefox-b-e
+1 27 firefox-b-e channel
+1 30 channel entpr
+1 33 entpr q
+2 78 q koreader
+1 57 q korede
+2 66 duckduckgo com
+2 72 t ftsa
+2 75 ftsa q
+4 263 <bot:term> sudo
+1 94 <bot:term> apt
+1 105 <bot:term> lightdm-settings
+1 276 <bot:term> su
+6 279 sudo apt
+1 97 apt search
+2 200 apt install
+3 269 apt remove
+1 282 apt full-upgrade
+1 90 install gdebi-gt
+1 203 install deb
+2 126 github com
+1 132 slgobinath SafeEyes
+1 135 SafeEyes tab
+1 138 tab readme-ov-file
+1 143 cd cache
+1 191 cd Downloads
+1 146 cache gnupg
+1 149 gnupg mozilla
+1 152 mozilla Documents
+1 155 Documents Music
+1 158 Music Public
+1 161 Public Videos
+1 164 Videos config
+1 167 config local
+1 170 local Desktop
+1 173 Desktop Downloads
+1 239 Downloads sudo
+1 176 Downloads Pictures
+1 179 Pictures Templates
+1 182 Templates linux
+2 233 linux changeme
+1 188 changeme cd
+1 236 changeme Downloads
+1 206 remove gnome-
+1 248 remove gnome-system-monitor
+1 260 remove atril
+1 272 remove gparted
+1 209 gnome- gnome-accessibility-themes
+1 212 gnome-accessibility-themes gnome-keyring-pkcs11
+1 215 gnome-keyring-pkcs11 gnome-themes-extra-data
+1 218 gnome-themes-extra-data gnome-icon-theme
+1 221 gnome-icon-theme gnome-system-monitor
+1 224 gnome-system-monitor gnome-keyring
+1 227 gnome-keyring gnome-themes-extra
+1 230 gnome-themes-extra linux
+
+\3-grams:
+1 7 <bot:url> https www
+2 61 <bot:url> https duckduckgo
+2 121 <bot:url> https github
+1 10 https www google
+2 64 https duckduckgo com
+2 124 https github com
+1 13 www google com
+1 16 google com search
+1 19 com search client
+2 70 com t ftsa
+1 130 com slgobinath SafeEyes
+1 22 search client firefox-b-e
+1 25 client firefox-b-e channel
+1 28 firefox-b-e channel entpr
+1 31 channel entpr q
+1 34 entpr q koreader
+2 67 duckduckgo com t
+2 73 t ftsa q
+1 76 ftsa q koreader
+1 55 ftsa q korede
+4 264 <bot:term> sudo apt
+1 95 <bot:term> apt search
+2 198 sudo apt install
+3 267 sudo apt remove
+1 280 sudo apt full-upgrade
+1 98 apt search gdebi
+1 88 apt install gdebi-gt
+1 201 apt install deb
+1 246 apt remove gnome-system-monitor
+1 258 apt remove atril
+1 270 apt remove gparted
+2 127 github com slgobinath
+1 133 slgobinath SafeEyes tab
+1 136 SafeEyes tab readme-ov-file
+1 144 cd cache gnupg
+1 147 cache gnupg mozilla
+1 150 gnupg mozilla Documents
+1 153 mozilla Documents Music
+1 156 Documents Music Public
+1 159 Music Public Videos
+1 162 Public Videos config
+1 165 Videos config local
+1 168 config local Desktop
+1 171 local Desktop Downloads
+1 174 Desktop Downloads Pictures
+1 240 Downloads sudo apt
+1 177 Downloads Pictures Templates
+1 180 Pictures Templates linux
+1 183 Templates linux changeme
+1 186 linux changeme cd
+1 234 linux changeme Downloads
+1 189 changeme cd Downloads
+1 237 changeme Downloads sudo
+1 207 remove gnome- gnome-accessibility-themes
+1 210 gnome- gnome-accessibility-themes gnome-keyring-pkcs11
+1 213 gnome-accessibility-themes gnome-keyring-pkcs11 gnome-themes-extra-data
+1 216 gnome-keyring-pkcs11 gnome-themes-extra-data gnome-icon-theme
+1 219 gnome-themes-extra-data gnome-icon-theme gnome-system-monitor
+1 222 gnome-icon-theme gnome-system-monitor gnome-keyring
+1 225 gnome-system-monitor gnome-keyring gnome-themes-extra
+1 228 gnome-keyring gnome-themes-extra linux
+1 231 gnome-themes-extra linux changeme
+
+\end\

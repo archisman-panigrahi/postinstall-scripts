@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Pi-Apps Updater
+Exec=/home/linux/pi-apps/updater onboot
+Icon=/home/linux/pi-apps/icons/logo.png
+Terminal=false
+StartupWMClass=Pi-Apps
+Type=Application
+X-GNOME-Autostart-enabled=true
+Hidden=false
+NoDisplay=false

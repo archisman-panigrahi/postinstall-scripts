@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=All Is Well
+GenericName=Update Helper and Fixer
+Comment=ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux. It will also fix any broken packages and dependencies.
+Exec=/home/linux/pi-apps/etc/terminal-run /home/linux/All-is-well/aiw/aiwrpi.sh 'All Is Well'
+Icon=/home/linux/pi-apps/apps/All Is Well/icon-64.png
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Utility;

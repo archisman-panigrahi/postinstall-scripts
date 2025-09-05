@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/linux/Downloads/6.6.9-stb-cbg+.tar.gz" added="2025-09-03T12:55:13.370873Z" modified="2025-09-03T12:55:13.370891Z" visited="2025-09-03T12:55:13.370875Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-03T12:55:13.370884Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/applications/screen-orientation-manager.desktop" added="2025-09-03T13:22:24.829815Z" modified="2025-09-03T13:22:24.829831Z" visited="2025-09-03T13:22:24.829817Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-desktop"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-session-settings" exec="&apos;xfce4-session-settings %u&apos;" modified="2025-09-03T13:22:24.829823Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/koreader-2025.08-arm64.deb" added="2025-09-03T13:45:07.404168Z" modified="2025-09-03T13:53:05.745886Z" visited="2025-09-03T13:45:07.404172Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-03T13:45:07.404177Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-03T13:53:05.745876Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/safeeyes_2.2.3-0~202412251207~ubuntu24.10.1_all.deb" added="2025-09-03T13:52:59.341456Z" modified="2025-09-03T13:53:19.009943Z" visited="2025-09-03T13:52:59.341460Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-03T13:52:59.341464Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-03T13:53:19.009924Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Documents/anthony-trollope_the-vicar-of-bullhampton.epub" added="2025-09-03T14:22:34.009996Z" modified="2025-09-03T15:08:59.668930Z" visited="2025-09-03T14:22:34.010000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/epub+zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-09-03T14:22:34.259531Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-03T15:08:59.668917Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/LibreOffice_25.8.1_Linux_aarch64_deb.tar.gz" added="2025-09-03T14:38:20.688747Z" modified="2025-09-03T14:38:20.688772Z" visited="2025-09-03T14:38:20.688753Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-03T14:38:20.688764Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/backgrounds/xfce" added="2025-09-03T15:23:27.472640Z" modified="2025-09-03T15:23:27.472663Z" visited="2025-09-03T15:23:27.472643Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xfdesktop-settings" exec="&apos;xfdesktop-settings %u&apos;" modified="2025-09-03T15:23:27.472649Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/evdev-right-click-emulation/Makefile" added="2025-09-05T00:41:42.989767Z" modified="2025-09-05T00:58:11.065580Z" visited="2025-09-05T00:41:42.989770Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 16:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-05T00:43:17.038649Z" count="2"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-09-05T00:58:11.065575Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Documents/GitHub/postinstall-scripts/arm_chromebook_debian/install_pkg" added="2025-09-05T01:54:48.417934Z" modified="2025-09-05T01:56:19.691665Z" visited="2025-09-05T01:54:48.417936Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:65;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-05T01:54:48.417941Z" count="1"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-09-05T01:56:19.691655Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

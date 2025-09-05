@@ -1,0 +1,319 @@
+
+\data\
+ngram 1=107
+ngram 2=115
+ngram 3=84
+
+\1-grams:
+1 1 <unk>
+1 2 <s>
+1 3 </s>
+2 301 <num>
+1 377 --autoremove
+1 156 -i
+1 272 -o
+37 619 <bot:term>
+14 634 <bot:txt>
+16 622 <bot:url>
+1 269 CC
+1 274 CFLAGS
+1 192 Libby
+1 122 all
+1 98 apps
+11 393 apt
+1 241 askubuntu
+1 201 bi
+1 204 book
+5 591 cd
+4 565 chatgpt
+1 256 click
+15 628 com
+8 618 conf
+1 158 deb
+1 107 docklike
+1 149 download
+1 153 dpkg
+8 543 duckduckgo
+3 350 etc
+1 286 evdev-rce
+1 268 evdev-right-click-emulation
+1 186 fol
+1 29 foliate
+6 504 ftsa
+1 52 full-upgrade
+1 32 gimp
+2 625 github
+1 43 gparted
+12 562 https
+1 16 ibus-avro
+1 35 inkscape
+6 396 install
+1 258 l
+1 207 libb
+1 196 libbyapp
+1 379 libevdev-dev
+1 262 libevdev2
+1 147 libreoffice
+2 385 list
+1 259 long
+1 359 long-tap-right-click
+4 613 nano
+1 173 okular
+1 252 onhbpr4ss
+1 284 out
+2 329 pam_env
+1 61 papiras
+1 62 papirus
+1 74 papirus-icon-theme
+1 96 pi
+1 261 press
+6 507 q
+1 374 remove
+1 253 right
+1 247 rightbvhickk
+3 181 search
+2 326 security
+1 361 service
+12 390 sudo
+1 356 system
+1 353 systemd
+6 501 t
+1 250 to
+1 125 tube
+1 298 velvet-os
+1 171 vlc
+1 189 webapp
+1 183 whisker
+1 119 xfce4-docklike-plugin
+1 244 xfe
+2 383 xinput
+1 37 xournalpp
+1 386 stylus
+2 570 redshift-gtk
+2 609 re
+1 404 res
+3 547 redshit
+4 606 config
+12 616 redshift
+1 446 bo
+1 468 boston
+1 471 latitude
+1 473 ling
+1 483 mkdir
+1 515 example
+1 534 -l
+1 536 manual
+1 553 cp
+1 580 rm
+1 583 -rf
+2 594 ls
+1 598 mv
+1 621 exit
+1 630 arc
+1 633 wh
+1 636 jk
+
+\2-grams:
+1 378 --autoremove libevdev-dev
+1 157 -i deb
+1 273 -o CFLAGS
+3 176 <bot:term> apt
+5 590 <bot:term> cd
+1 303 <bot:term> etc
+2 611 <bot:term> nano
+11 388 <bot:term> sudo
+2 381 <bot:term> xinput
+1 569 <bot:term> redshift-gtk
+4 557 <bot:term> redshift
+1 481 <bot:term> mkdir
+1 551 <bot:term> cp
+1 578 <bot:term> rm
+2 593 <bot:term> ls
+1 596 <bot:term> mv
+1 620 <bot:term> exit
+1 300 <bot:txt> <num>
+1 191 <bot:txt> Libby
+1 121 <bot:txt> all
+1 200 <bot:txt> bi
+1 203 <bot:txt> book
+1 185 <bot:txt> fol
+1 206 <bot:txt> libb
+1 194 <bot:txt> libbyapp
+1 124 <bot:txt> tube
+1 188 <bot:txt> webapp
+2 608 <bot:txt> re
+1 632 <bot:txt> wh
+1 635 <bot:txt> jk
+1 209 <bot:url> chatgpt
+1 623 <bot:url> github
+12 560 <bot:url> https
+1 403 <bot:url> res
+1 445 <bot:url> bo
+1 270 CC -o
+1 51 apt full-upgrade
+6 394 apt install
+1 372 apt remove
+3 179 apt search
+1 242 askubuntu xfe
+1 267 cd evdev-right-click-emulation
+2 575 cd config
+4 566 chatgpt com
+1 257 click l
+6 499 com t
+1 297 com velvet-os
+1 629 com arc
+1 605 conf config
+1 514 conf example
+1 154 dpkg -i
+8 544 duckduckgo com
+2 324 etc security
+1 351 etc systemd
+1 30 foliate gimp
+6 505 ftsa q
+1 33 gimp inkscape
+2 626 github com
+3 563 https chatgpt
+8 541 https duckduckgo
+1 291 https github
+1 36 inkscape xournalpp
+1 27 install foliate
+1 15 install ibus-avro
+1 73 install papirus-icon-theme
+1 169 install vlc
+1 118 install xfce4-docklike-plugin
+1 397 install redshift-gtk
+1 197 libbyapp com
+1 148 libreoffice download
+1 260 long press
+1 360 long-tap-right-click service
+2 348 nano etc
+1 433 nano config
+1 614 nano redshift
+1 285 out evdev-rce
+2 330 pam_env conf
+1 97 pi apps
+1 239 q askubuntu
+1 145 q libreoffice
+1 94 q pi
+1 424 q redshit
+1 508 q redshift
+1 466 q boston
+1 375 remove --autoremove
+1 254 right click
+1 248 rightbvhickk to
+1 106 search docklike
+1 60 search papiras
+1 182 search whisker
+2 327 security pam_env
+8 391 sudo apt
+1 151 sudo dpkg
+1 42 sudo gparted
+2 345 sudo nano
+1 357 system long-tap-right-click
+1 354 systemd system
+6 502 t ftsa
+1 251 to onhbpr4ss
+1 172 vlc okular
+1 245 xfe rightbvhickk
+2 384 xinput list
+2 548 redshit conf
+1 436 config redshift
+4 617 redshift conf
+1 439 redshift redshift
+1 532 redshift -l
+1 469 boston latitude
+1 472 latitude ling
+1 484 mkdir redshift
+1 535 -l manual
+1 554 cp redshift
+1 581 rm -rf
+1 584 -rf redshift
+1 599 mv redshift
+
+\3-grams:
+3 177 <bot:term> apt search
+1 265 <bot:term> cd evdev-right-click-emulation
+2 573 <bot:term> cd config
+1 304 <bot:term> etc security
+1 431 <bot:term> nano config
+1 612 <bot:term> nano redshift
+8 389 <bot:term> sudo apt
+1 40 <bot:term> sudo gparted
+2 343 <bot:term> sudo nano
+2 382 <bot:term> xinput list
+1 530 <bot:term> redshift -l
+1 482 <bot:term> mkdir redshift
+1 552 <bot:term> cp redshift
+1 579 <bot:term> rm -rf
+1 597 <bot:term> mv redshift
+1 195 <bot:txt> libbyapp com
+1 210 <bot:url> chatgpt com
+1 624 <bot:url> github com
+3 561 <bot:url> https chatgpt
+8 539 <bot:url> https duckduckgo
+1 289 <bot:url> https github
+1 271 CC -o CFLAGS
+1 25 apt install foliate
+1 13 apt install ibus-avro
+1 71 apt install papirus-icon-theme
+1 167 apt install vlc
+1 116 apt install xfce4-docklike-plugin
+1 395 apt install redshift-gtk
+1 373 apt remove --autoremove
+1 104 apt search docklike
+1 58 apt search papiras
+1 180 apt search whisker
+1 243 askubuntu xfe rightbvhickk
+6 500 com t ftsa
+1 155 dpkg -i deb
+6 497 duckduckgo com t
+2 325 etc security pam_env
+1 352 etc systemd system
+1 31 foliate gimp inkscape
+1 237 ftsa q askubuntu
+1 143 ftsa q libreoffice
+1 92 ftsa q pi
+1 422 ftsa q redshit
+1 506 ftsa q redshift
+1 464 ftsa q boston
+1 34 gimp inkscape xournalpp
+1 295 github com velvet-os
+1 627 github com arc
+3 564 https chatgpt com
+8 542 https duckduckgo com
+1 292 https github com
+1 28 install foliate gimp
+1 170 install vlc okular
+1 322 nano etc security
+1 349 nano etc systemd
+1 434 nano config redshift
+1 615 nano redshift conf
+1 240 q askubuntu xfe
+1 146 q libreoffice download
+1 95 q pi apps
+1 425 q redshit conf
+1 509 q redshift conf
+1 467 q boston latitude
+1 376 remove --autoremove libevdev-dev
+1 255 right click l
+1 249 rightbvhickk to onhbpr4ss
+2 328 security pam_env conf
+1 49 sudo apt full-upgrade
+6 392 sudo apt install
+1 370 sudo apt remove
+1 152 sudo dpkg -i
+2 346 sudo nano etc
+1 358 system long-tap-right-click service
+1 355 systemd system long-tap-right-click
+6 503 t ftsa q
+1 246 xfe rightbvhickk to
+1 437 config redshift redshift
+1 603 redshift conf config
+1 512 redshift conf example
+1 440 redshift redshift conf
+1 533 redshift -l manual
+1 470 boston latitude ling
+1 582 rm -rf redshift
+1 600 mv redshift conf
+
+\end\

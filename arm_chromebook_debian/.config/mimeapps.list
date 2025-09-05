@@ -1,0 +1,3 @@
+[Added Associations]
+application/epub+zip=koreader.desktop;
+text/x-makefile=org.xfce.mousepad.desktop;
