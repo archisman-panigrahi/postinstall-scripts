@@ -1,3 +1,11 @@
 [Added Associations]
 application/epub+zip=koreader.desktop;
 text/x-makefile=org.xfce.mousepad.desktop;
+text/plain=org.xfce.mousepad.desktop;
+application/pdf=okularApplication_pdf.desktop;firefox-esr.desktop;koreader.desktop;
+audio/mpeg=vlc.desktop;
+image/png=gimp.desktop;org.xfce.ristretto.desktop;
+
+[Default Applications]
+application/pdf=koreader.desktop
+image/png=org.xfce.ristretto.desktop

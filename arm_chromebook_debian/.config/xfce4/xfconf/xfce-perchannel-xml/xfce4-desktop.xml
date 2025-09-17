@@ -8,10 +8,11 @@
         <property name="color1" type="empty"/>
         <property name="color2" type="empty"/>
         <property name="color-style" type="empty"/>
-        <property name="image-path" type="empty"/>
+        <property name="image-path" type="string" value="/run/user/1000/doc/9bf550e/Telegram/IMG_20250916_062610.jpg"/>
         <property name="image-show" type="empty"/>
         <property name="last-image" type="empty"/>
         <property name="last-single-image" type="empty"/>
+        <property name="image-style" type="int" value="5"/>
       </property>
       <property name="monitor1" type="empty">
         <property name="brightness" type="empty"/>
@@ -25,14 +26,20 @@
       </property>
       <property name="monitorDSI-1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-light.svg"/>
+          <property name="last-image" type="string" value="/run/user/1000/doc/9bf550e/Telegram/IMG_20250916_062610.jpg"/>
+          <property name="image-style" type="int" value="5"/>
         </property>
       </property>
     </property>
+    <property name="single-workspace-mode" type="bool" value="true"/>
+    <property name="single-workspace-number" type="int" value="0"/>
   </property>
   <property name="last-settings-migration-version" type="uint" value="1"/>
   <property name="last" type="empty">
     <property name="window-width" type="int" value="667"/>
     <property name="window-height" type="int" value="541"/>
+  </property>
+  <property name="desktop-icons" type="empty">
+    <property name="single-click" type="bool" value="true"/>
   </property>
 </channel>

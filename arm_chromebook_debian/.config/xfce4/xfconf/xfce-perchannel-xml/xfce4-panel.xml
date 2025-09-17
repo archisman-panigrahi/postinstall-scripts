@@ -2,7 +2,9 @@
 
 <channel name="xfce4-panel" version="1.0">
   <property name="configver" type="empty"/>
-  <property name="panels" type="empty">
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
     <property name="dark-mode" type="empty"/>
     <property name="panel-1" type="empty">
       <property name="position" type="empty"/>
@@ -11,26 +13,31 @@
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="32"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="17"/>
-        <value type="int" value="3"/>
-        <value type="int" value="4"/>
+        <value type="int" value="23"/>
+        <value type="int" value="26"/>
         <value type="int" value="5"/>
+        <value type="int" value="17"/>
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="4"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
+        <value type="int" value="19"/>
         <value type="int" value="13"/>
         <value type="int" value="14"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
     </property>
     <property name="panel-2" type="empty">
-      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
       <property name="position" type="string" value="p=5;x=381;y=539"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="56"/>
+      <property name="size" type="uint" value="48"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="16"/>
         <value type="int" value="7"/>
@@ -41,9 +48,17 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="empty"/>
-    <property name="plugin-2" type="empty">
+    <property name="plugin-1" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17577433351.desktop"/>
+      </property>
+      <property name="show-label" type="bool" value="false"/>
+    </property>
+    <property name="plugin-2" type="string" value="launcher">
       <property name="grouping" type="empty"/>
+      <property name="items" type="array">
+        <value type="string" value="17577435074.desktop"/>
+      </property>
     </property>
     <property name="plugin-3" type="empty">
       <property name="expand" type="empty"/>
@@ -52,10 +67,27 @@
     <property name="plugin-4" type="empty"/>
     <property name="plugin-5" type="empty">
       <property name="style" type="empty"/>
+      <property name="expand" type="bool" value="true"/>
     </property>
     <property name="plugin-6" type="empty">
       <property name="square-icons" type="empty"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “mit” active: mit (49%)"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (63%)"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="alarm clock"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (54%)"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (52%)"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (58%)"/>
+        <value type="string" value="polkit-mate-authentication-agent-1"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (62%)"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (69%)"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (57%)"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (51%)"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (55%)"/>
+        <value type="string" value="wi-fi network connection “mit” active: mit (50%)"/>
         <value type="string" value="wi-fi network connection “mit” active: mit (61%)"/>
         <value type="string" value="screenorientationmanager.py"/>
         <value type="string" value="wi-fi network connection “mit” active: mit (59%)"/>
@@ -70,6 +102,12 @@
         <value type="string" value="no network connection"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="Betterbird-systray-icon"/>
+        <value type="string" value="io.github.archisman_panigrahi.screen-orientation-manager"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="Onboard"/>
+        <value type="string" value="alarm-clock-applet"/>
+        <value type="string" value="TelegramDesktop"/>
         <value type="string" value="redshift"/>
         <value type="string" value="io.github.slgobinath.SafeEyes"/>
         <value type="string" value="blueman"/>
@@ -79,7 +117,7 @@
     <property name="plugin-8" type="empty">
       <property name="enable-keyboard-shortcuts" type="empty"/>
       <property name="show-notifications" type="empty"/>
-      <property name="known-players" type="string" value="FreeTube"/>
+      <property name="known-players" type="string" value="firefox-esr;FreeTube;vlc"/>
     </property>
     <property name="plugin-9" type="empty"/>
     <property name="plugin-10" type="empty"/>
@@ -93,18 +131,18 @@
       <property name="style" type="empty"/>
     </property>
     <property name="plugin-14" type="empty">
-      <property name="appearance" type="uint" value="1"/>
+      <property name="appearance" type="uint" value="0"/>
       <property name="items" type="array">
-        <value type="string" value="+lock-screen"/>
-        <value type="string" value="+switch-user"/>
-        <value type="string" value="+separator"/>
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
         <value type="string" value="-suspend"/>
         <value type="string" value="-hibernate"/>
         <value type="string" value="-hybrid-sleep"/>
         <value type="string" value="-separator"/>
-        <value type="string" value="+shutdown"/>
-        <value type="string" value="+restart"/>
-        <value type="string" value="+separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
         <value type="string" value="+logout"/>
         <value type="string" value="-logout-dialog"/>
       </property>
@@ -120,9 +158,21 @@
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="github-desktop.desktop"/>
-        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="com.github.hugolabe.Wike.desktop"/>
+        <value type="string" value="pi-apps.desktop"/>
+        <value type="string" value="org.telegram.desktop.desktop"/>
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
+        <value type="string" value="xfce-backdrop-settings.desktop"/>
+        <value type="string" value="org.kde.okular.desktop"/>
+        <value type="string" value="com.github.joseexposito.touche.desktop"/>
+        <value type="string" value="eu.betterbird.Betterbird.desktop"/>
+        <value type="string" value="libreoffice25.8-writer.desktop"/>
+        <value type="string" value="realvnc-vncviewer.desktop"/>
       </property>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="position-search-alternate" type="bool" value="false"/>
+      <property name="default-category" type="int" value="1"/>
     </property>
     <property name="plugin-17" type="string" value="showdesktop">
       <property name="items" type="empty"/>
@@ -130,8 +180,18 @@
     <property name="plugin-18" type="empty">
       <property name="items" type="empty"/>
     </property>
-    <property name="plugin-19" type="empty">
+    <property name="plugin-19" type="string" value="systemload">
       <property name="items" type="empty"/>
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="timeout-seconds" type="uint" value="10"/>
     </property>
     <property name="plugin-20" type="empty">
       <property name="items" type="empty"/>
@@ -140,7 +200,7 @@
     <property name="plugin-22" type="empty">
       <property name="base-directory" type="empty"/>
     </property>
-    <property name="plugin-23" type="empty">
+    <property name="plugin-23" type="string" value="wckbuttons">
       <property name="timeout" type="empty"/>
       <property name="timeout-seconds" type="empty"/>
       <property name="system-monitor-command" type="empty"/>
@@ -162,5 +222,6 @@
       </property>
     </property>
     <property name="plugin-7" type="string" value="docklike"/>
+    <property name="plugin-26" type="string" value="windowck-plugin"/>
   </property>
 </channel>

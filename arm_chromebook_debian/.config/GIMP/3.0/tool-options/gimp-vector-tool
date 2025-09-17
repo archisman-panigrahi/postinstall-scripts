@@ -1,0 +1,11 @@
+# GIMP gimp-vector-tool options
+
+(background
+    (color "R'G'B'A float" 16 "\1\0\200\77\1\0\200\77\1\0\200\77\0\0\200\77" 0))
+(brush "2. Hardness 050")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+
+# end of gimp-vector-tool options

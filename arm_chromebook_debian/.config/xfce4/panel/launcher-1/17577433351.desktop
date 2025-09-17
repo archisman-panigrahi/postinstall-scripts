@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WiFi Toggle
+Comment=Toggle WiFi On/Off
+Exec=python3 /home/linux/wifi-switch.py
+Icon=network-wireless
+Terminal=false
+Type=Application
+Categories=Utility;System;
+X-XFCE-Source=file:///home/linux/.local/share/applications/wifi.desktop

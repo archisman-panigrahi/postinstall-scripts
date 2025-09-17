@@ -1,0 +1,16 @@
+# GIMP user context
+
+(tool "gimp-paintbrush-tool")
+(paint-info "gimp-paintbrush")
+(background
+    (color "R'G'B'A float" 16 "\1\0\200\77\1\0\200\77\1\0\200\77\0\0\200\77" 0))
+(brush "2. Hardness 050")
+(dynamics "Pressure Size")
+(mybrush "Standard")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(font "Sans-serif")
+(tool-preset "Virtual core pointer")
+
+# end of user context

@@ -1,2 +1,3 @@
-2025/09/05-01:47:17.454 3e82 Creating DB /home/linux/.config/GitHub Desktop/Local Storage/leveldb since it was missing.
-2025/09/05-01:47:17.493 3e82 Reusing MANIFEST /home/linux/.config/GitHub Desktop/Local Storage/leveldb/MANIFEST-000001
+2025/09/13-11:14:33.624 fe3 Reusing MANIFEST /home/linux/.config/GitHub Desktop/Local Storage/leveldb/MANIFEST-000001
+2025/09/13-11:14:33.658 fe3 Recovering log #3
+2025/09/13-11:14:33.659 fe3 Reusing old log /home/linux/.config/GitHub Desktop/Local Storage/leveldb/000003.log 

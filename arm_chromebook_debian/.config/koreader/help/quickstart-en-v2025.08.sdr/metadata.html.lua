@@ -1,7 +1,7 @@
 -- /home/linux/.config/koreader/help/quickstart-en-v2025.08.sdr/metadata.html.lua
 return {
     ["annotations"] = {},
-    ["config_panel_index"] = 1,
+    ["config_panel_index"] = 6,
     ["copt_b_page_margin"] = 15,
     ["copt_block_rendering_mode"] = 3,
     ["copt_cjk_width_scaling"] = 100,
@@ -33,7 +33,7 @@ return {
     },
     ["cre_dom_version"] = 20240114,
     ["css"] = "./data/epub.css",
-    ["doc_pages"] = 5,
+    ["doc_pages"] = 9,
     ["doc_path"] = "/home/linux/.config/koreader/help/quickstart-en-v2025.08.html",
     ["doc_props"] = {
         ["title"] = "KOReader Quickstart Guide",
@@ -53,11 +53,11 @@ return {
     ["hyph_trust_soft_hyphens"] = false,
     ["hyphenation"] = true,
     ["inverse_reading_order"] = false,
-    ["last_xpointer"] = "/html/body/h2[8]/text().0",
+    ["last_xpointer"] = "/html/body/div[1]/img.0",
     ["page_overlap_style"] = "dim",
     ["partial_md5_checksum"] = "efeadae4fa3b06adbd84bf4f292be12c",
     ["partial_rerendering"] = true,
-    ["percent_finished"] = 1,
+    ["percent_finished"] = 0.11111111111111,
     ["readermenu_tab_index"] = 1,
     ["show_overlap_enable"] = false,
     ["stats"] = {
@@ -65,7 +65,7 @@ return {
         ["highlights"] = 0,
         ["language"] = "N/A",
         ["notes"] = 0,
-        ["pages"] = 5,
+        ["pages"] = 9,
         ["performance_in_pages"] = {},
         ["series"] = "N/A",
         ["title"] = "KOReader Quickstart Guide",

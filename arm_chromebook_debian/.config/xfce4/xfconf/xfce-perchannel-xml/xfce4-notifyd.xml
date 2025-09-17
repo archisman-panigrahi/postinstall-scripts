@@ -5,8 +5,14 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="blueman"/>
+      <value type="string" value="eu.betterbird.Betterbird"/>
+      <value type="string" value="Firefox"/>
+      <value type="string" value="io.github.alarm-clock-applet"/>
       <value type="string" value="io.github.slgobinath.SafeEyes"/>
+      <value type="string" value="notify-send"/>
       <value type="string" value="org.freedesktop.network-manager-applet"/>
+      <value type="string" value="org.nickvision.tubeconverter"/>
+      <value type="string" value="thunar-volman"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="xfce4-power-manager"/>
       <value type="string" value="xfce4-settings-helper"/>

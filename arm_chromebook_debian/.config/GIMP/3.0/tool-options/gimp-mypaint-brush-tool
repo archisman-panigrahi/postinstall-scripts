@@ -1,0 +1,10 @@
+# GIMP gimp-mypaint-brush-tool options
+
+(background
+    (color "R'G'B'A float" 16 "\1\0\200\77\1\0\200\77\1\0\200\77\0\0\200\77" 0))
+(mybrush "Standard")
+(pattern "Pine")
+(brush-size 51)
+(brush-hardness 0.5)
+
+# end of gimp-mypaint-brush-tool options

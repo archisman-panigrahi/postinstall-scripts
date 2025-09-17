@@ -12,17 +12,21 @@ configs:
       width: 1536
       height: 2048
   icons:
-    "ROOT-A":
-      row: 5
-      col: 0
-      last_seen: 1739477080470148
     "ac5adec5-9cac-4e1f-9101-294cddfb7ee9":
       row: 6
       col: 0
       last_seen: 1739476609635945
+    "ROOT-A":
+      row: 5
+      col: 0
+      last_seen: 1739477080470148
+    "6430-3030":
+      row: 0
+      col: 3
+      last_seen: 1757684034819342
     "/home/linux":
       row: 0
-      col: 0
+      col: 2
     "b4104e49-8d7d-441a-a988-94ff87df718f":
       row: 3
       col: 0
@@ -42,16 +46,16 @@ configs:
       col: 2
       last_seen: 1756906868715436
     "/":
-      row: 1
+      row: 0
       col: 0
     "bf4e07f9-b90d-481b-91b8-2fca2c1a3dd9":
       row: 1
       col: 1
       last_seen: 1756906868692477
     "7BBC-CCF7":
-      row: 2
-      col: 0
-      last_seen: 1756908820888424
+      row: 1
+      col: 1
+      last_seen: 1757042893076340
     "/home/linux/Desktop/com.github.xournalpp.xournalpp.desktop":
       row: 3
       col: 0

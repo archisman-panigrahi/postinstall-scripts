@@ -1,0 +1,27 @@
+2025-09-13T15:14:45.991Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-09-13T15:14:46.028Z - info: [ui] [AppStore] found account: archisman-panigrahi (Archisman Panigrahi)
+2025-09-13T15:14:47.873Z - warn: [ui] Error refreshing account 'archisman-panigrahi'
+Error: Cannot update an account which doesn't have a token: archisman-panigrahi
+    at at (/home/linux/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/linux/webpack:/app/src/lib/stores/accounts-store.ts:248:12
+    at Op.tryUpdateAccount (/home/linux/webpack:/app/src/lib/stores/accounts-store.ts:136:20)
+    at /home/linux/webpack:/app/src/lib/stores/accounts-store.ts:116:37
+    at Array.map (<anonymous>)
+    at Op.refresh (/home/linux/webpack:/app/src/lib/stores/accounts-store.ts:116:21)
+    at Op.loadInitialState (/home/linux/webpack:/app/src/lib/stores/app-store.ts:2309:24)
+2025-09-13T15:14:48.159Z - info: [ui] Executing getCommits: git log 46fac4fd7a32a7c7cd6c2f1745bbfcf48bf25bf1 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.858s)
+2025-09-13T15:14:48.648Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-09-13T15:14:48.692Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-09-13T15:14:49.152Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-09-13T15:14:49.157Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-09-13T15:14:49.162Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-09-13T15:14:49.366Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.6.9-stb-cbg+)
+2025-09-13T15:14:49.369Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2025-09-13T15:14:49.639Z - info: [ui] Stats reported.
+2025-09-13T15:15:09.944Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-09-13T15:15:11.996Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-09-13T15:15:13.462Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read

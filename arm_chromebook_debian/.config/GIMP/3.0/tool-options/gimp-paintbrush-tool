@@ -1,0 +1,13 @@
+# GIMP gimp-paintbrush-tool options
+
+(background
+    (color "R'G'B'A float" 16 "\1\0\200\77\1\0\200\77\1\0\200\77\0\0\200\77" 0))
+(brush "2. Hardness 050")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 51)
+(brush-hardness 0.5)
+
+# end of gimp-paintbrush-tool options

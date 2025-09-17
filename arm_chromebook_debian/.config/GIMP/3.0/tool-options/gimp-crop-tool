@@ -1,0 +1,7 @@
+# GIMP gimp-crop-tool options
+
+(background
+    (color "R'G'B'A float" 16 "\1\0\200\77\1\0\200\77\1\0\200\77\0\0\200\77" 0))
+(pattern "Pine")
+
+# end of gimp-crop-tool options

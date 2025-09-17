@@ -2,18 +2,19 @@
 Version=1.0
 Name=Libby
 Comment=Web App
-Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="bookreader" firefox --class WebApp-Libby0776 --profile /home/linux/.local/share/ice/firefox/Libby0776 --no-remote "http://libbyapp.com"'
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="/home/linux/.local/share/ice/icons/Libby.png" firefox --class WebApp-Libby0776 --profile /home/linux/.local/share/ice/firefox/Libby0776 --no-remote "http://libbyapp.com"'
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=bookreader
-Categories=GTK;WebApps;
+Icon=/home/linux/.local/share/ice/icons/Libby.png
+Categories=GTK;Education;
 MimeType=text/html;text/xml;application/xhtml_xml;
 StartupWMClass=WebApp-Libby0776
 StartupNotify=true
 X-WebApp-Browser=Firefox
 X-WebApp-URL=http://libbyapp.com
 X-WebApp-CustomParameters=
-X-WebApp-Navbar=false
+X-WebApp-Navbar=true
 X-WebApp-PrivateWindow=false
 X-WebApp-Isolated=true
+

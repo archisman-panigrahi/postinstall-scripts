@@ -1,319 +1,1694 @@
 
 \data\
-ngram 1=107
-ngram 2=115
-ngram 3=84
+ngram 1=468
+ngram 2=651
+ngram 3=562
 
 \1-grams:
 1 1 <unk>
-1 2 <s>
+26 3703 <s>
 1 3 </s>
-2 301 <num>
-1 377 --autoremove
-1 156 -i
-1 272 -o
-37 619 <bot:term>
-14 634 <bot:txt>
-16 622 <bot:url>
-1 269 CC
-1 274 CFLAGS
-1 192 Libby
-1 122 all
-1 98 apps
-11 393 apt
-1 241 askubuntu
-1 201 bi
-1 204 book
-5 591 cd
-4 565 chatgpt
-1 256 click
-15 628 com
-8 618 conf
-1 158 deb
-1 107 docklike
-1 149 download
-1 153 dpkg
-8 543 duckduckgo
-3 350 etc
-1 286 evdev-rce
-1 268 evdev-right-click-emulation
-1 186 fol
-1 29 foliate
-6 504 ftsa
-1 52 full-upgrade
-1 32 gimp
-2 625 github
-1 43 gparted
-12 562 https
-1 16 ibus-avro
-1 35 inkscape
-6 396 install
-1 258 l
-1 207 libb
-1 196 libbyapp
-1 379 libevdev-dev
-1 262 libevdev2
-1 147 libreoffice
-2 385 list
-1 259 long
-1 359 long-tap-right-click
-4 613 nano
-1 173 okular
-1 252 onhbpr4ss
-1 284 out
-2 329 pam_env
-1 61 papiras
-1 62 papirus
-1 74 papirus-icon-theme
-1 96 pi
-1 261 press
-6 507 q
-1 374 remove
-1 253 right
-1 247 rightbvhickk
-3 181 search
-2 326 security
-1 361 service
-12 390 sudo
-1 356 system
-1 353 systemd
-6 501 t
-1 250 to
-1 125 tube
-1 298 velvet-os
-1 171 vlc
-1 189 webapp
-1 183 whisker
-1 119 xfce4-docklike-plugin
-1 244 xfe
-2 383 xinput
-1 37 xournalpp
-1 386 stylus
-2 570 redshift-gtk
-2 609 re
-1 404 res
-3 547 redshit
-4 606 config
-12 616 redshift
-1 446 bo
-1 468 boston
-1 471 latitude
-1 473 ling
-1 483 mkdir
-1 515 example
-1 534 -l
-1 536 manual
-1 553 cp
-1 580 rm
-1 583 -rf
-2 594 ls
-1 598 mv
-1 621 exit
-1 630 arc
-1 633 wh
-1 636 jk
+70 3955 <num>
+1 1497 --daemon
+1 2876 --dump-hw-params
+1 258 --gamma
+1 3634 --help
+1 2663 --now
+2 252 --output
+1 228 --set
+1 2574 --start
+9 2660 --user
+3 3409 -A5
+2 2868 -D
+3 1525 -b
+1 2832 -d
+2 2826 -f
+4 3373 -i
+2 2653 -k
+2 2846 -l
+3 1461 -la
+1 1558 -n
+1 1546 -p
+4 1519 -u
+5 3630 -y
+158 3877 <bot:term>
+105 3886 <bot:txt>
+63 3925 <bot:url>
+1 447 AP
+1 2888 Anandamela
+4 3517 Archisman
+1 352 Berry
+1 3511 Best
+1 699 Betterbird
+2 255 DSI-1
+2 3598 Deleted
+1 3529 Department
+1 1362 Device
+3 1858 Downloads
+2 3594 Drafts
+3 3411 ELAN
+1 1081 F11
+1 2195 First
+1 3523 Graduate
+2 331 He
+1 3549 Homepage
+1 3706 In
+1 2252 Installn
+1 3541 Institute
+5 3600 Items
+1 285 LL
+1 2246 Launchpad
+6 2137 Left
+1 3538 Massachusetts
+1 2248 PPA
+3 3520 Panigrahi
+1 2885 Patrika
+1 3535 Physics
+1 3835 Please
+1 3694 Problem
+1 128 QT_SCALE_FACTOR
+1 3514 Regards
+2 230 Saturation
+3 3577 Sent
+2 2689 Server
+1 3526 Student
+3 2126 Tab
+1 2951 Tang
+1 3547 Technology
+1 3700 Thank
+1 1597 There
+1 3805 This
+2 1888 _arm64
+1 1846 _armhf
+2 3724 a
+1 2995 about
+1 278 acces
+1 3688 after
+2 1954 aiw
+1 799 al
+1 3606 alley
+1 2500 alsa_card
+1 2882 alsamixer
+7 2152 alt
+1 2231 amd64
+6 2415 anandabazar
+1 733 and
+2 705 ap
+1 559 apandad1
+5 706 apandada1
+1 2854 aplay
+1 2279 app
+16 3622 apt
+1 103 arch
+1 3429 archi
+8 3564 archi137
+1 64 archi37
+1 519 archisman-
+1 2228 architecture
+1 1600 are
+4 2865 arecord
+1 944 arm
+2 2234 arm64
+1 2237 armhf
+1 3721 as
+2 3838 ask
+1 334 asked
+4 2989 askubuntu
+1 2928 ass
+1 2723 audio
+2 753 aut
+1 2627 autospawn
+1 1139 aux
+1 2897 back
+1 3636 backlight
+1 750 be
+2 2933 bet
+3 697 betterbird
+1 747 betterbird-bin
+1 214 blame
+1 730 books
+1 505 boston
+1 2343 brandon
+6 3650 brightnessctl
+1 3004 browser
+4 3394 bus
+1 3769 but
+1 827 button
+1 2174 cambridg
+1 2207 can
+4 2698 cards
+17 3424 cat
+14 3417 cd
+1 3787 change
+15 3336 changeme
+1 496 channel
+4 3040 chatgpt
+2 3197 chmod
+2 2645 client
+7 3829 co
+59 3934 com
+16 2647 conf
+13 2997 config
+1 1408 connection
+1 3347 control
+1 1555 cp
+1 215 critical-chain
+1 3793 current
+1 355 curvature
+1 1386 daemon-reload
+1 25 dc
+1 7 dco
+1 20 dconf-editor
+1 56 dd
+7 2216 deb
+1 600 debian
+1 2922 deep
+1 3796 design
+1 3844 developer
+1 2799 device
+4 3400 devices
+1 720 dis
+1 1303 disable
+1 3856 distutils
+2 3364 dmesg
+1 3778 don't
+1 1671 downoad
+2 1864 dpkg
+2 3309 driver
+2 98 dropbox
+21 3931 duckduckgo
+2 3376 echo
+8 3562 edu
+1 346 effects
+1 3060 elan
+1 3864 else
+2 3498 email
+4 2666 enable
+1 499 entpr
+1 127 environment
+1 125 etc
+1 694 eu
+2 3262 evtest
+3 1594 exit
+1 381 experiments
+1 3801 fine
+1 2919 finger
+1 493 firefox-b-1-e
+1 691 flathub
+10 3880 flatpak
+1 2222 for
+3 3853 from
+21 3940 ftsa
+2 3090 g
+1 724 get
+1 194 gimp
+6 3097 github
+9 3118 gmail
+1 481 google
+1 2210 grab
+9 3406 grep
+1 735 groceies
+1 3715 having
+1 307 he
+1 316 hem
+1 1207 hi
+1 2633 home
+46 3928 https
+1 3375 i2c
+2 3312 i2c-3
+1 3772 if
+1 3105 imagebuilder
+3 2925 in
+1 3751 increase
+1 376 indeoendent
+2 2681 info
+4 3397 input
+16 3883 install
+1 3736 instead
+1 343 into
+1 142 io
+2 3808 is
+1 3718 it
+1 3754 its
+1 1605 jobs
+1 2315 joplin
+2 1976 joseexposito
+4 1516 journalctl
+1 3811 just
+11 3660 key
+3 2117 keydown
+3 2150 keyup
+1 715 label
+1 3730 layer
+1 1773 libgeis
+2 2180 library
+15 3333 linux
+6 2696 list
+5 2793 load-module
+2 1420 locate
+3 1491 lock
+1 340 look
+15 3420 ls
+1 796 m
+6 3205 mem_sleep
+1 337 meto
+1 2726 mic
+8 3559 mit
+2 1543 mkdir
+2 3006 ml
+3 2775 module-alsa-s
+3 2778 module-alsa-sink
+4 2796 module-alsa-source
+1 2592 module-jack-sink
+1 2593 module-jack-source
+1 1946 mousepad
+1 622 mozilla
+1 436 mugshot
+1 3709 my
+1 3426 name
+1 1919 nanNo
+5 3185 nano
+1 459 net
+2 3763 new
+1 511 news
+1 2630 no
+1 1205 notify-send
+1 2472 nytimes
+4 3739 of
+2 3315 of_node
+2 3031 office
+2 3469 office365
+7 3826 omgubuntu
+2 3379 on
+1 28 onbo
+2 1999 onboard
+1 2725 onlne
+1 2182 openhours
+1 3712 opinion
+2 3502 outgoing
+4 3466 outlook
+1 325 over
+1 281 pa
+2 2219 package
+1 1633 packages
+1 946 packge
+12 2790 pactl
+2 115 par
+1 85 parabolic
+1 2481 pavucontrol
+2 3330 pinctrl
+2 2669 pipewire
+2 2672 pipewire-pulse
+1 1696 pkg
+2 1366 pkill
+2 3327 platform
+1 2503 platform-sound
+3 2871 plughw
+1 829 plugin
+2 208 plymouth
+1 149 plymouth-set-default-theme
+1 199 png
+3 197 pokemon
+1 1714 pool
+1 3690 poopingporn
+1 2930 porn
+1 1705 ports
+6 3318 power
+1 973 ppa
+1 2505 pro-audio
+4 3391 proc
+1 61 progress
+1 373 project
+1 1136 ps
+1 2177 public
+1 2642 pulse
+2 2651 pulseaudio
+1 2569 pulseaudio-module-alsa
+4 2573 pulseaudio-module-jack
+1 2566 pulseaudio-utils
+23 3943 q
+1 322 questions
+1 1410 refused
+1 1627 remove
+2 1698 repo
+3 1239 restart
+1 3603 reuse
+11 3179 rm
+1 3206 root
+1 2306 rpi
+2 1967 run
+1 3360 runtime_active_time
+1 3353 runtime_status
+1 3354 runtime_suspended_time
+2 784 s
+2 304 said
+1 2345 sanderson
+2 1981 sc
+1 3745 screen
+1 1984 screenshot
+8 3616 search
+8 1905 service
+3 3653 set
+1 2497 set-card-profile
+1 787 sett
+1 3733 setting
+2 794 settings
+1 3685 sex
+1 1564 share
+1 2553 short
+1 778 sinhan
+1 2274 slack
+4 2141 sleep
+1 3814 so
+1 3696 solved
+1 319 some
+1 3862 something
+1 2808 source_name
+1 272 sta
+3 1900 start
+2 1174 status
+1 1288 stop
+1 1603 stopped
+1 3123 su
+2 3321 subsystem
+30 3621 sudo
+2 3324 supplier
+1 3141 suspend_stats
+1 3850 switch
+3 3212 sys
+11 2657 systemctl
+1 212 systemd-analyze
+22 3937 t
+1 2026 tab
+1 2810 tablet_mic
+1 292 tagoreweb
+1 3573 teat
+1 3387 tee
+3 3591 test
+2 2857 testt
+1 3799 that's
+5 3889 the
+1 288 thinks
+1 364 this
+3 625 thunderbird
+1 776 tien
+1 941 tluchegg
+4 3859 to
+1 513 today
+1 3727 top
+1 2068 tou
+12 3045 touch
+3 1978 touche
+1 968 toucheg
+60 2201 touchegg
+1 1783 touchegg_
+3 1786 touchegg_1
+3 1870 touchegg_202505242116-stable-2
+1 86 tube-converter
+1 88 tubeconverter
+1 2403 twitter
+1 516 typ
+1 391 tঅচল
+4 1708 ubuntu
+3 1879 ubuntu24
+3 1798 ubuntu7_arm64
+2 3200 ugo
+7 3831 uk
+1 508 uni
+1 1717 universe
+1 717 unread
+1 1960 update
+1 158 update-initramfs
+2 1416 updatedb
+1 3766 users
+1 1561 usr
+2 3103 velvet-os
+1 3757 visibility
+1 2304 viwr
+1 133 vlc
+1 2301 vnc
+1 361 vortices
+2 3203 w
+1 3781 want
+2 2859 wav
+1 2277 web
+1 781 wif
+1 310 will
+1 824 window
+1 838 windowck
+2 2674 wireplumber
+1 3742 within
+1 3748 would
+1 3816 wrong
+13 3823 www
+1 181 xdg--op
+1 184 xdg-open
+10 2147 xdotool
+1 821 xfce
+1 3663 xfce4-popup-whiskermenu
+3 1255 xinput
+2 249 xrandr
+1 3483 york
+3 3775 you
+1 2225 your
+2 385 youtube
+10 3403 |
+1 417 অ
+1 413 আ
+1 466 ত
+2 471 ন
+1 469 ফ
+1 463 র
+1 394 য়
+1 3873 wike
+1 3876 wi
+1 3885 flatseal
+1 3892 devils
+1 3894 bible
+2 3952 inter
+1 3919 valley
+2 3961 coherent
+2 3964 phase
+1 3946 ali
+1 3949 yazdanii
+1 3958 Fvallley
+1 3963 phas3
 
 \2-grams:
-1 378 --autoremove libevdev-dev
-1 157 -i deb
-1 273 -o CFLAGS
-3 176 <bot:term> apt
-5 590 <bot:term> cd
-1 303 <bot:term> etc
-2 611 <bot:term> nano
-11 388 <bot:term> sudo
-2 381 <bot:term> xinput
-1 569 <bot:term> redshift-gtk
-4 557 <bot:term> redshift
-1 481 <bot:term> mkdir
-1 551 <bot:term> cp
-1 578 <bot:term> rm
-2 593 <bot:term> ls
-1 596 <bot:term> mv
-1 620 <bot:term> exit
-1 300 <bot:txt> <num>
-1 191 <bot:txt> Libby
-1 121 <bot:txt> all
-1 200 <bot:txt> bi
-1 203 <bot:txt> book
-1 185 <bot:txt> fol
-1 206 <bot:txt> libb
-1 194 <bot:txt> libbyapp
-1 124 <bot:txt> tube
-1 188 <bot:txt> webapp
-2 608 <bot:txt> re
-1 632 <bot:txt> wh
-1 635 <bot:txt> jk
-1 209 <bot:url> chatgpt
-1 623 <bot:url> github
-12 560 <bot:url> https
-1 403 <bot:url> res
-1 445 <bot:url> bo
-1 270 CC -o
-1 51 apt full-upgrade
-6 394 apt install
-1 372 apt remove
-3 179 apt search
-1 242 askubuntu xfe
-1 267 cd evdev-right-click-emulation
-2 575 cd config
-4 566 chatgpt com
-1 257 click l
-6 499 com t
-1 297 com velvet-os
-1 629 com arc
-1 605 conf config
-1 514 conf example
-1 154 dpkg -i
-8 544 duckduckgo com
-2 324 etc security
-1 351 etc systemd
-1 30 foliate gimp
-6 505 ftsa q
-1 33 gimp inkscape
-2 626 github com
-3 563 https chatgpt
-8 541 https duckduckgo
-1 291 https github
-1 36 inkscape xournalpp
-1 27 install foliate
-1 15 install ibus-avro
-1 73 install papirus-icon-theme
-1 169 install vlc
-1 118 install xfce4-docklike-plugin
-1 397 install redshift-gtk
-1 197 libbyapp com
-1 148 libreoffice download
-1 260 long press
-1 360 long-tap-right-click service
-2 348 nano etc
-1 433 nano config
-1 614 nano redshift
-1 285 out evdev-rce
-2 330 pam_env conf
-1 97 pi apps
-1 239 q askubuntu
-1 145 q libreoffice
-1 94 q pi
-1 424 q redshit
-1 508 q redshift
-1 466 q boston
-1 375 remove --autoremove
-1 254 right click
-1 248 rightbvhickk to
-1 106 search docklike
-1 60 search papiras
-1 182 search whisker
-2 327 security pam_env
-8 391 sudo apt
-1 151 sudo dpkg
-1 42 sudo gparted
-2 345 sudo nano
-1 357 system long-tap-right-click
-1 354 systemd system
-6 502 t ftsa
-1 251 to onhbpr4ss
-1 172 vlc okular
-1 245 xfe rightbvhickk
-2 384 xinput list
-2 548 redshit conf
-1 436 config redshift
-4 617 redshift conf
-1 439 redshift redshift
-1 532 redshift -l
-1 469 boston latitude
-1 472 latitude ling
-1 484 mkdir redshift
-1 535 -l manual
-1 554 cp redshift
-1 581 rm -rf
-1 584 -rf redshift
-1 599 mv redshift
+11 3270 <s> <num>
+1 329 <s> He
+1 3704 <s> In
+1 2251 <s> Installn
+1 3698 <s> Thank
+1 3605 <s> alley
+1 3551 <s> https
+1 1607 <s> linux
+3 2139 <s> sleep
+3 2145 <s> xdotool
+14 1883 <num> <num>
+1 2875 <num> --dump-hw-params
+1 2824 <num> -f
+2 1886 <num> _arm64
+1 1844 <num> _armhf
+2 1490 <num> lock
+1 1992 <num> onboard
+1 2806 <num> source_name
+1 2836 <num> testt
+3 1877 <num> ubuntu24
+3 1796 <num> ubuntu7_arm64
+1 132 <num> vlc
+1 3956 <num> Fvallley
+1 259 --gamma <num>
+1 2664 --now enable
+2 253 --output DSI-1
+1 229 --set Saturation
+1 2661 --user --now
+2 1343 --user -u
+1 1385 --user daemon-reload
+2 1376 --user enable
+1 1233 --user restart
+1 1331 --user start
+1 1172 --user status
+3 3410 -A5 ELAN
+2 2869 -D plughw
+1 1526 -b -f
+1 1355 -b |
+1 2833 -d <num>
+1 2827 -f cd
+1 3059 -i elan
+1 3374 -i i2c
+1 1781 -i touchegg_
+1 1868 -i touchegg_202505242116-stable-2
+1 1559 -n usr
+1 1547 -p config
+3 1520 -u touchegg
+2 1953 <bot:term> aiw
+1 2881 <bot:term> alsamixer
+1 2852 <bot:term> aplay
+6 3611 <bot:term> apt
+4 2863 <bot:term> arecord
+2 3632 <bot:term> brightnessctl
+16 3422 <bot:term> cat
+10 3416 <bot:term> cd
+2 3195 <bot:term> chmod
+2 3362 <bot:term> dmesg
+1 2622 <bot:term> echo
+1 1244 <bot:term> evtest
+2 1110 <bot:term> exit
+9 3878 <bot:term> flatpak
+2 1514 <bot:term> journalctl
+2 1418 <bot:term> locate
+15 3419 <bot:term> ls
+2 1541 <bot:term> mkdir
+1 1917 <bot:term> nanNo
+5 3183 <bot:term> nano
+1 1203 <bot:term> notify-send
+1 1995 <bot:term> on
+8 2691 <bot:term> pactl
+1 2480 <bot:term> pavucontrol
+2 1364 <bot:term> pkill
+2 2649 <bot:term> pulseaudio
+1 2878 <bot:term> q
+11 3177 <bot:term> rm
+1 171 <bot:term> s
+1 1983 <bot:term> screenshot
+1 1986 <bot:term> sleep
+1 3122 <bot:term> su
+26 3620 <bot:term> sudo
+3 2655 <bot:term> systemctl
+1 210 <bot:term> systemd-analyze
+3 1493 <bot:term> touchegg
+1 180 <bot:term> xdg--op
+1 183 <bot:term> xdg-open
+1 1074 <bot:term> xdotool
+2 1253 <bot:term> xinput
+2 247 <bot:term> xrandr
+11 3485 <bot:txt> <num>
+1 446 <bot:txt> AP
+1 2887 <bot:txt> Anandamela
+2 2935 <bot:txt> Archisman
+1 3509 <bot:txt> Best
+2 3596 <bot:txt> Deleted
+2 3593 <bot:txt> Drafts
+1 2193 <bot:txt> First
+1 299 <bot:txt> He
+1 283 <bot:txt> LL
+1 443 <bot:txt> Panigrahi
+1 2884 <bot:txt> Patrika
+1 3833 <bot:txt> Please
+1 3692 <bot:txt> Problem
+3 3575 <bot:txt> Sent
+1 2950 <bot:txt> Tang
+1 3803 <bot:txt> This
+1 277 <bot:txt> acces
+1 798 <bot:txt> al
+2 704 <bot:txt> ap
+1 557 <bot:txt> apandad1
+3 650 <bot:txt> apandada1
+1 102 <bot:txt> arch
+1 3428 <bot:txt> archi
+6 3473 <bot:txt> archi137
+1 63 <bot:txt> archi37
+2 752 <bot:txt> aut
+1 2896 <bot:txt> back
+1 749 <bot:txt> be
+2 2932 <bot:txt> bet
+2 3648 <bot:txt> brightnessctl
+1 3002 <bot:txt> browser
+1 1406 <bot:txt> connection
+1 24 <bot:txt> dc
+1 6 <bot:txt> dco
+1 719 <bot:txt> dis
+1 722 <bot:txt> get
+2 740 <bot:txt> github
+1 3659 <bot:txt> key
+1 713 <bot:txt> label
+1 2999 <bot:txt> ml
+1 458 <bot:txt> net
+1 3479 <bot:txt> new
+1 27 <bot:txt> onbo
+1 1998 <bot:txt> onboard
+2 3500 <bot:txt> outgoing
+2 3464 <bot:txt> outlook
+1 280 <bot:txt> pa
+2 114 <bot:txt> par
+1 117 <bot:txt> plymouth
+1 3602 <bot:txt> reuse
+1 783 <bot:txt> s
+2 1980 <bot:txt> sc
+1 786 <bot:txt> sett
+2 792 <bot:txt> settings
+1 271 <bot:txt> sta
+1 162 <bot:txt> sys
+1 3572 <bot:txt> teat
+2 3590 <bot:txt> test
+1 3887 <bot:txt> the
+1 2067 <bot:txt> tou
+1 3044 <bot:txt> touch
+1 1700 <bot:txt> touchegg
+1 515 <bot:txt> typ
+1 389 <bot:txt> tঅচল
+1 780 <bot:txt> wif
+2 2112 <bot:txt> xdotool
+1 3662 <bot:txt> xfce4-popup-whiskermenu
+1 461 <bot:txt> র
+1 3875 <bot:txt> wi
+1 2993 <bot:url> about
+4 545 <bot:url> anandabazar
+1 518 <bot:url> archisman-
+1 232 <bot:url> chatgpt
+1 30 <bot:url> dropbox
+1 3089 <bot:url> g
+3 3116 <bot:url> gmail
+45 3926 <bot:url> https
+1 1631 <bot:url> packages
+1 1703 <bot:url> ports
+1 290 <bot:url> tagoreweb
+1 135 <bot:url> velvet-os
+2 383 <bot:url> youtube
+2 3518 Archisman Panigrahi
+1 353 Berry curvature
+1 3512 Best Regards
+1 256 DSI-1 --gamma
+1 223 DSI-1 Saturation
+2 3599 Deleted Items
+1 3530 Department of
+1 1859 Downloads sudo
+1 2196 First install
+1 3524 Graduate Student
+1 332 He asked
+1 302 He said
+1 3707 In my
+1 3542 Institute of
+1 286 LL said
+1 2247 Launchpad PPA
+3 2133 Left key
+1 3539 Massachusetts Institute
+1 3521 Panigrahi Graduate
+1 3536 Physics Massachusetts
+1 3836 Please ask
+1 3695 Problem solved
+1 129 QT_SCALE_FACTOR <num>
+1 3515 Regards Archisman
+1 226 Saturation <num>
+3 3578 Sent Items
+1 3527 Student Department
+3 2127 Tab key
+1 3548 Technology Homepage
+1 3701 Thank you
+1 1598 There are
+1 3806 This is
+2 1889 _arm64 deb
+1 1847 _armhf deb
+1 371 a project
+1 3725 a top
+1 2996 about config
+1 3689 after poopingporn
+1 2501 alsa_card platform-sound
+3 2121 alt key
+1 2025 alt tab
+1 2232 amd64 arm64
+6 2416 anandabazar com
+1 734 and groceies
+1 560 apandad1 gmail
+4 707 apandada1 gmail
+1 2855 aplay testt
+9 3623 apt install
+1 1625 apt remove
+6 3614 apt search
+5 3434 archi137 mit
+1 2229 architecture amd64
+1 1601 are stopped
+2 2866 arecord -D
+1 2845 arecord -l
+1 945 arm packge
+1 2235 arm64 armhf
+1 1667 arm64 package
+1 2238 armhf from
+1 3722 as a
+1 314 ask hem
+1 3839 ask the
+1 335 asked meto
+4 2990 askubuntu com
+1 2929 ass porn
+1 2724 audio onlne
+1 2628 autospawn no
+1 1140 aux |
+1 698 betterbird Betterbird
+1 731 books and
+1 506 boston uni
+1 2344 brandon sanderson
+1 3629 brightnessctl -y
+2 3651 brightnessctl set
+1 3005 browser ml
+4 3395 bus input
+1 3770 but if
+1 828 button plugin
+1 2175 cambridg public
+1 2208 can grab
+1 2552 cards short
+1 3346 cat control
+1 123 cat etc
+2 3192 cat mem_sleep
+1 3425 cat name
+4 3389 cat proc
+1 3359 cat runtime_active_time
+1 3352 cat runtime_status
+1 3140 cat suspend_stats
+5 1589 cat touchegg
+1 2830 cd -d
+1 1745 cd Downloads
+3 1911 cd config
+1 3174 cd power
+1 3128 cd sys
+1 1062 cd touchegg
+1 3788 change the
+1 1856 changeme Downloads
+3 3337 changeme cd
+6 1938 changeme config
+3 2788 changeme pactl
+1 3210 changeme sys
+1 1400 changeme touch
+1 497 channel entpr
+4 3041 chatgpt com
+2 3198 chmod ugo
+1 2646 client conf
+1 491 client firefox-b-1-e
+7 3830 co uk
+2 1971 com github
+1 1712 com pool
+1 485 com search
+21 3935 com t
+1 1640 com touchegg
+1 3101 com velvet-os
+1 1574 conf config
+1 2640 config pulse
+3 1038 config touch
+7 1941 config touchegg
+1 1409 connection refused
+1 1556 cp -n
+1 3794 current design
+1 356 curvature in
+1 21 dconf-editor -y
+1 57 dd status
+1 1850 deb linux
+1 2217 deb package
+2 1826 deb touchegg_202505242116-stable-2
+1 2923 deep in
+1 3797 design that's
+1 3845 developer to
+1 2800 device plughw
+3 3401 devices |
+1 1304 disable touchegg
+1 3857 distutils to
+2 3365 dmesg |
+1 3779 don't want
+2 1865 dpkg -i
+2 3310 driver i2c-3
+2 99 dropbox com
+21 3932 duckduckgo com
+1 2625 echo autospawn
+1 3377 echo on
+1 3563 edu archi137
+1 347 effects of
+1 2667 enable pipewire
+2 1379 enable touchegg
+1 500 entpr q
+1 126 etc environment
+1 695 eu betterbird
+1 1595 exit There
+1 2920 finger deep
+1 494 firefox-b-1-e channel
+1 692 flathub eu
+1 680 flatpak betterbird
+6 3881 flatpak install
+2 1965 flatpak run
+1 1959 flatpak update
+1 2223 for your
+1 3854 from distutils
+1 380 from experiments
+1 2241 from the
+21 3941 ftsa q
+1 972 g ppa
+1 725 get library
+1 195 gimp pokemon
+1 3098 github com
+1 141 github io
+2 1974 github joseexposito
+9 3119 gmail com
+1 482 google com
+1 2211 grab the
+3 3407 grep -A5
+2 3371 grep -i
+1 1361 grep Device
+2 2688 grep Server
+1 1146 grep touchegg
+1 3716 having it
+1 308 he will
+1 317 hem some
+1 2634 home linux
+4 2987 https askubuntu
+3 3038 https chatgpt
+21 3929 https duckduckgo
+1 3095 https github
+1 3110 https gmail
+2 3026 https outlook
+1 2401 https twitter
+13 3821 https www
+2 3313 i2c-3 of_node
+1 3773 if you
+1 2926 in ass
+1 359 in vortices
+1 3752 increase its
+1 377 indeoendent from
+2 2682 info |
+4 3398 input devices
+1 3626 install brightnessctl
+1 18 install dconf-editor
+1 689 install flathub
+1 2314 install joplin
+1 434 install mugshot
+1 84 install parabolic
+1 2610 install pipewire
+1 2531 install pulseaudio-module-jack
+1 2564 install pulseaudio-utils
+1 1089 install touche
+2 2199 install touchegg
+1 984 install xdotool
+1 3872 install wike
+1 3884 install flatseal
+1 3737 instead of
+1 344 into effects
+1 368 is a
+1 3809 is just
+1 3719 it as
+1 3755 its visibility
+2 1977 joseexposito touche
+2 1340 journalctl --user
+1 1517 journalctl -u
+1 3812 just so
+1 1080 key F11
+6 2136 key Left
+3 2124 key Tab
+3 2118 keydown alt
+3 2151 keyup alt
+1 716 label unread
+1 3731 layer setting
+1 728 library books
+1 2181 library openhours
+14 3334 linux changeme
+1 2637 linux config
+4 2697 list cards
+3 2773 load-module module-alsa-s
+1 2794 load-module module-alsa-source
+1 2591 load-module module-jack-sink
+1 168 locate pokemon
+1 1421 locate touchegg
+1 341 look into
+3 1460 ls -la
+1 338 meto look
+8 3560 mit edu
+1 1544 mkdir -p
+1 897 mkdir touchegg
+3 2776 module-alsa-s module-alsa-sink
+3 2779 module-alsa-sink module-alsa-source
+1 2797 module-alsa-source device
+3 2782 module-alsa-source linux
+1 1947 mousepad touchegg
+1 623 mozilla thunderbird
+1 437 mugshot -y
+1 3710 my opinion
+1 1920 nanNo touchegg
+1 3186 nano mem_sleep
+4 1929 nano touchegg
+1 3764 new users
+1 3482 new york
+1 512 news today
+1 2631 no home
+1 1206 notify-send hi
+1 2473 nytimes com
+1 350 of Berry
+1 3533 of Physics
+1 3545 of Technology
+1 3740 of within
+2 3316 of_node power
+2 3032 office com
+2 3470 office365 com
+7 3827 omgubuntu co
+1 3380 on |
+1 3713 opinion having
+2 3503 outgoing mit
+2 3029 outlook office
+2 3467 outlook office365
+1 326 over email
+1 1670 package downoad
+1 2220 package for
+1 1634 packages ubuntu
+2 2679 pactl info
+4 2694 pactl list
+5 2791 pactl load-module
+1 2495 pactl set-card-profile
+2 3331 pinctrl linux
+2 2670 pipewire pipewire-pulse
+2 2673 pipewire-pulse wireplumber
+1 1697 pkg repo
+1 746 pkill betterbird-bin
+1 1367 pkill touchegg
+2 3328 platform pinctrl
+1 2504 platform-sound pro-audio
+3 2872 plughw <num>
+1 150 plymouth-set-default-theme pokemon
+1 198 pokemon png
+1 1715 pool universe
+1 1706 ports ubuntu
+2 3319 power subsystem
+4 3392 proc bus
+1 374 project indeoendent
+1 1137 ps aux
+1 2178 public library
+1 2643 pulse client
+2 2652 pulseaudio -k
+1 2570 pulseaudio-module-alsa pulseaudio-module-jack
+1 2534 pulseaudio-module-jack -y
+1 2567 pulseaudio-utils pulseaudio-module-alsa
+1 647 q betterbird
+1 503 q boston
+1 2341 q brandon
+1 2172 q cambridg
+1 54 q dd
+1 2917 q finger
+1 677 q flatpak
+1 620 q mozilla
+1 3683 q sex
+1 2272 q slack
+1 2718 q test
+1 596 q thunderbird
+1 774 q tien
+1 939 q tluchegg
+1 966 q toucheg
+2 1691 q ubuntu
+1 2299 q vnc
+1 2019 q xdotool
+1 819 q xfce
+1 3914 q inter
+1 3944 q ali
+1 323 questions over
+1 1628 remove touchegg
+1 1236 restart touchegg
+1 1478 rm lock
+2 3180 rm mem_sleep
+5 1535 rm touchegg
+1 3207 root changeme
+2 1968 run com
+1 305 said he
+1 3746 screen would
+1 3617 search brightnessctl
+1 488 search client
+1 1772 search libgeis
+1 207 search plymouth
+1 575 search thunderbird
+1 918 search touchegg
+1 837 search windowck
+2 1352 service -b
+1 1295 service sudo
+1 1325 service systemctl
+2 3654 set <num>
+1 2498 set-card-profile alsa_card
+1 3734 setting instead
+1 795 settings m
+1 3686 sex after
+1 1565 share touchegg
+1 2275 slack web
+4 2142 sleep <num>
+1 3815 so wrong
+1 320 some questions
+1 3863 something else
+1 2809 source_name tablet_mic
+2 1901 start touchegg
+1 60 status progress
+1 1175 status touchegg
+1 1289 stop touchegg
+1 1604 stopped jobs
+2 3322 subsystem supplier
+9 2604 sudo apt
+2 1862 sudo dpkg
+1 3261 sudo evtest
+1 192 sudo gimp
+1 147 sudo plymouth-set-default-theme
+4 1895 sudo systemctl
+1 3386 sudo tee
+1 156 sudo update-initramfs
+2 1415 sudo updatedb
+2 3325 supplier platform
+1 3851 switch from
+2 3213 sys power
+7 2658 systemctl --user
+1 1301 systemctl disable
+1 1898 systemctl start
+1 1286 systemctl stop
+1 213 systemd-analyze blame
+21 3938 t ftsa
+1 1721 t touchegg
+1 293 tagoreweb in
+1 2721 test audio
+1 3497 test email
+2 2858 testt wav
+1 3800 that's fine
+1 2244 the Launchpad
+1 3791 the current
+1 2214 the deb
+1 3842 the developer
+1 3890 the devils
+1 365 this is
+1 599 thunderbird debian
+1 626 thunderbird repo
+1 777 tien sinhan
+1 942 tluchegg arm
+1 3785 to change
+1 3761 to new
+1 3860 to something
+1 3848 to switch
+1 3728 top layer
+5 1388 touch touch
+5 1391 touch touchegg
+1 969 toucheg g
+3 1487 touchegg <num>
+1 1496 touchegg --daemon
+1 1523 touchegg -b
+15 1950 touchegg conf
+1 1553 touchegg cp
+5 1394 touchegg linux
+1 1944 touchegg mousepad
+8 1904 touchegg service
+3 1580 touchegg touchegg
+1 1724 touchegg touchegg_1
+1 885 touchegg xdotool
+1 2202 touchegg you
+1 1784 touchegg_ touchegg_1
+3 1787 touchegg_1 <num>
+3 1871 touchegg_202505242116-stable-2 <num>
+1 2404 twitter com
+1 392 tঅচল য়
+1 1664 ubuntu arm64
+2 1709 ubuntu com
+1 1694 ubuntu pkg
+3 1880 ubuntu24 <num>
+3 1799 ubuntu7_arm64 deb
+2 3201 ugo w
+1 509 uni news
+1 1718 universe t
+1 159 update-initramfs -u
+1 3767 users but
+1 1562 usr share
+1 138 velvet-os github
+1 3104 velvet-os imagebuilder
+1 3758 visibility to
+1 2305 viwr rpi
+1 2302 vnc viwr
+1 362 vortices this
+1 3204 w mem_sleep
+1 3782 want to
+1 2278 web app
+1 311 will ask
+1 825 window button
+1 2619 wireplumber -y
+1 3743 within screen
+1 3749 would increase
+2 2413 www anandabazar
+1 96 www dropbox
+1 479 www google
+1 3557 www mit
+1 2470 www nytimes
+7 3824 www omgubuntu
+1 2022 xdotool alt
+1 1077 xdotool key
+3 2115 xdotool keydown
+3 2148 xdotool keyup
+1 822 xfce window
+2 1256 xinput list
+1 250 xrandr --output
+1 2205 you can
+1 3776 you don't
+1 2226 your architecture
+1 386 youtube com
+9 3404 | grep
+1 3383 | sudo
+1 467 ত ফ
+1 470 ফ ন
+1 464 র ত
+1 395 য় ন
+1 3893 devils bible
+1 3953 inter <num>
+1 3917 inter valley
+1 3920 valley coherent
+1 3923 coherent phase
+1 3962 coherent phas3
+1 3947 ali yazdanii
+1 3950 yazdanii inter
+1 3959 Fvallley coherent
 
 \3-grams:
-3 177 <bot:term> apt search
-1 265 <bot:term> cd evdev-right-click-emulation
-2 573 <bot:term> cd config
-1 304 <bot:term> etc security
-1 431 <bot:term> nano config
-1 612 <bot:term> nano redshift
-8 389 <bot:term> sudo apt
-1 40 <bot:term> sudo gparted
-2 343 <bot:term> sudo nano
-2 382 <bot:term> xinput list
-1 530 <bot:term> redshift -l
-1 482 <bot:term> mkdir redshift
-1 552 <bot:term> cp redshift
-1 579 <bot:term> rm -rf
-1 597 <bot:term> mv redshift
-1 195 <bot:txt> libbyapp com
-1 210 <bot:url> chatgpt com
-1 624 <bot:url> github com
-3 561 <bot:url> https chatgpt
-8 539 <bot:url> https duckduckgo
-1 289 <bot:url> https github
-1 271 CC -o CFLAGS
-1 25 apt install foliate
-1 13 apt install ibus-avro
-1 71 apt install papirus-icon-theme
-1 167 apt install vlc
-1 116 apt install xfce4-docklike-plugin
-1 395 apt install redshift-gtk
-1 373 apt remove --autoremove
-1 104 apt search docklike
-1 58 apt search papiras
-1 180 apt search whisker
-1 243 askubuntu xfe rightbvhickk
-6 500 com t ftsa
-1 155 dpkg -i deb
-6 497 duckduckgo com t
-2 325 etc security pam_env
-1 352 etc systemd system
-1 31 foliate gimp inkscape
-1 237 ftsa q askubuntu
-1 143 ftsa q libreoffice
-1 92 ftsa q pi
-1 422 ftsa q redshit
-1 506 ftsa q redshift
-1 464 ftsa q boston
-1 34 gimp inkscape xournalpp
-1 295 github com velvet-os
-1 627 github com arc
-3 564 https chatgpt com
-8 542 https duckduckgo com
-1 292 https github com
-1 28 install foliate gimp
-1 170 install vlc okular
-1 322 nano etc security
-1 349 nano etc systemd
-1 434 nano config redshift
-1 615 nano redshift conf
-1 240 q askubuntu xfe
-1 146 q libreoffice download
-1 95 q pi apps
-1 425 q redshit conf
-1 509 q redshift conf
-1 467 q boston latitude
-1 376 remove --autoremove libevdev-dev
-1 255 right click l
-1 249 rightbvhickk to onhbpr4ss
-2 328 security pam_env conf
-1 49 sudo apt full-upgrade
-6 392 sudo apt install
-1 370 sudo apt remove
-1 152 sudo dpkg -i
-2 346 sudo nano etc
-1 358 system long-tap-right-click service
-1 355 systemd system long-tap-right-click
-6 503 t ftsa q
-1 246 xfe rightbvhickk to
-1 437 config redshift redshift
-1 603 redshift conf config
-1 512 redshift conf example
-1 440 redshift redshift conf
-1 533 redshift -l manual
-1 470 boston latitude ling
-1 582 rm -rf redshift
-1 600 mv redshift conf
+1 330 <s> He asked
+1 3705 <s> In my
+1 3699 <s> Thank you
+1 3552 <s> https www
+1 1608 <s> linux changeme
+3 2140 <s> sleep <num>
+3 2146 <s> xdotool keyup
+4 1791 <num> <num> <num>
+2 1884 <num> <num> _arm64
+1 1842 <num> <num> _armhf
+3 1875 <num> <num> ubuntu24
+3 1794 <num> <num> ubuntu7_arm64
+1 2825 <num> -f cd
+2 1887 <num> _arm64 deb
+1 1845 <num> _armhf deb
+1 2807 <num> source_name tablet_mic
+1 2837 <num> testt wav
+3 1878 <num> ubuntu24 <num>
+3 1797 <num> ubuntu7_arm64 deb
+1 3957 <num> Fvallley coherent
+1 260 --gamma <num> <num>
+1 2665 --now enable pipewire
+1 254 --output DSI-1 --gamma
+1 221 --output DSI-1 Saturation
+1 2662 --user --now enable
+2 1344 --user -u touchegg
+2 1377 --user enable touchegg
+1 1234 --user restart touchegg
+1 1332 --user start touchegg
+1 1173 --user status touchegg
+2 2870 -D plughw <num>
+1 1356 -b | grep
+1 2834 -d <num> testt
+1 2828 -f cd -d
+1 1782 -i touchegg_ touchegg_1
+1 1869 -i touchegg_202505242116-stable-2 <num>
+1 1560 -n usr share
+1 1548 -p config touchegg
+1 1521 -u touchegg -b
+2 1347 -u touchegg service
+1 2853 <bot:term> aplay testt
+6 3612 <bot:term> apt search
+2 2864 <bot:term> arecord -D
+1 2843 <bot:term> arecord -l
+1 3344 <bot:term> cat control
+1 121 <bot:term> cat etc
+2 3190 <bot:term> cat mem_sleep
+1 3423 <bot:term> cat name
+3 3244 <bot:term> cat proc
+1 3357 <bot:term> cat runtime_active_time
+1 3350 <bot:term> cat runtime_status
+1 3138 <bot:term> cat suspend_stats
+5 1587 <bot:term> cat touchegg
+1 1743 <bot:term> cd Downloads
+3 1909 <bot:term> cd config
+1 3172 <bot:term> cd power
+1 3126 <bot:term> cd sys
+1 1060 <bot:term> cd touchegg
+2 3196 <bot:term> chmod ugo
+2 3363 <bot:term> dmesg |
+1 2623 <bot:term> echo autospawn
+6 3879 <bot:term> flatpak install
+2 1963 <bot:term> flatpak run
+1 1957 <bot:term> flatpak update
+1 1515 <bot:term> journalctl -u
+1 166 <bot:term> locate pokemon
+1 1419 <bot:term> locate touchegg
+3 1458 <bot:term> ls -la
+1 1542 <bot:term> mkdir -p
+1 895 <bot:term> mkdir touchegg
+1 1918 <bot:term> nanNo touchegg
+1 3184 <bot:term> nano mem_sleep
+4 1927 <bot:term> nano touchegg
+1 1204 <bot:term> notify-send hi
+2 2677 <bot:term> pactl info
+4 2692 <bot:term> pactl list
+1 2586 <bot:term> pactl load-module
+1 2493 <bot:term> pactl set-card-profile
+1 744 <bot:term> pkill betterbird-bin
+1 1365 <bot:term> pkill touchegg
+2 2650 <bot:term> pulseaudio -k
+1 1476 <bot:term> rm lock
+2 3178 <bot:term> rm mem_sleep
+5 1533 <bot:term> rm touchegg
+1 1987 <bot:term> sleep <num>
+9 2602 <bot:term> sudo apt
+1 3259 <bot:term> sudo evtest
+1 190 <bot:term> sudo gimp
+1 145 <bot:term> sudo plymouth-set-default-theme
+3 1893 <bot:term> sudo systemctl
+1 154 <bot:term> sudo update-initramfs
+2 1413 <bot:term> sudo updatedb
+3 2656 <bot:term> systemctl --user
+1 211 <bot:term> systemd-analyze blame
+1 1494 <bot:term> touchegg --daemon
+1 1075 <bot:term> xdotool key
+1 1254 <bot:term> xinput list
+1 248 <bot:term> xrandr --output
+1 2936 <bot:txt> Archisman Panigrahi
+1 3510 <bot:txt> Best Regards
+2 3597 <bot:txt> Deleted Items
+1 2194 <bot:txt> First install
+1 300 <bot:txt> He said
+1 284 <bot:txt> LL said
+1 3834 <bot:txt> Please ask
+1 3693 <bot:txt> Problem solved
+3 3576 <bot:txt> Sent Items
+1 3804 <bot:txt> This is
+1 558 <bot:txt> apandad1 gmail
+2 651 <bot:txt> apandada1 gmail
+4 3432 <bot:txt> archi137 mit
+2 3649 <bot:txt> brightnessctl set
+1 3003 <bot:txt> browser ml
+1 1407 <bot:txt> connection refused
+1 723 <bot:txt> get library
+1 714 <bot:txt> label unread
+1 3480 <bot:txt> new york
+2 3501 <bot:txt> outgoing mit
+2 3465 <bot:txt> outlook office365
+1 793 <bot:txt> settings m
+1 3495 <bot:txt> test email
+1 3888 <bot:txt> the devils
+1 390 <bot:txt> tঅচল য়
+2 2113 <bot:txt> xdotool keydown
+1 462 <bot:txt> র ত
+1 2994 <bot:url> about config
+4 546 <bot:url> anandabazar com
+1 233 <bot:url> chatgpt com
+1 31 <bot:url> dropbox com
+3 3117 <bot:url> gmail com
+4 2985 <bot:url> https askubuntu
+3 3036 <bot:url> https chatgpt
+21 3927 <bot:url> https duckduckgo
+1 3093 <bot:url> https github
+1 3108 <bot:url> https gmail
+2 3024 <bot:url> https outlook
+1 2399 <bot:url> https twitter
+12 3819 <bot:url> https www
+1 1632 <bot:url> packages ubuntu
+1 1704 <bot:url> ports ubuntu
+1 291 <bot:url> tagoreweb in
+1 136 <bot:url> velvet-os github
+1 384 <bot:url> youtube com
+1 3519 Archisman Panigrahi Graduate
+1 354 Berry curvature in
+1 3513 Best Regards Archisman
+1 257 DSI-1 --gamma <num>
+1 224 DSI-1 Saturation <num>
+1 3531 Department of Physics
+1 1860 Downloads sudo dpkg
+1 2197 First install touchegg
+1 3525 Graduate Student Department
+1 333 He asked meto
+1 303 He said he
+1 3708 In my opinion
+1 3543 Institute of Technology
+3 2134 Left key Left
+1 3540 Massachusetts Institute of
+1 3522 Panigrahi Graduate Student
+1 3537 Physics Massachusetts Institute
+1 3837 Please ask the
+1 130 QT_SCALE_FACTOR <num> vlc
+1 3528 Student Department of
+3 2128 Tab key Left
+1 1599 There are stopped
+1 3807 This is just
+1 1824 _arm64 deb touchegg_202505242116-stable-2
+1 1848 _armhf deb linux
+1 372 a project indeoendent
+1 3726 a top layer
+1 2502 alsa_card platform-sound pro-audio
+3 2122 alt key Tab
+1 2233 amd64 arm64 armhf
+1 561 apandad1 gmail com
+4 708 apandada1 gmail com
+1 2856 aplay testt wav
+1 3624 apt install brightnessctl
+1 16 apt install dconf-editor
+1 432 apt install mugshot
+1 2608 apt install pipewire
+1 2529 apt install pulseaudio-module-jack
+1 2562 apt install pulseaudio-utils
+1 880 apt install touchegg
+1 982 apt install xdotool
+1 1626 apt remove touchegg
+1 3615 apt search brightnessctl
+1 1770 apt search libgeis
+1 205 apt search plymouth
+1 573 apt search thunderbird
+1 916 apt search touchegg
+1 835 apt search windowck
+5 3435 archi137 mit edu
+1 2230 architecture amd64 arm64
+1 1602 are stopped jobs
+2 2867 arecord -D plughw
+1 2236 arm64 armhf from
+1 1668 arm64 package downoad
+1 2239 armhf from the
+1 3723 as a top
+1 315 ask hem some
+1 3840 ask the developer
+1 336 asked meto look
+1 2629 autospawn no home
+1 1141 aux | grep
+1 732 books and groceies
+1 507 boston uni news
+2 3652 brightnessctl set <num>
+4 3396 bus input devices
+1 3771 but if you
+1 2176 cambridg public library
+1 2209 can grab the
+1 124 cat etc environment
+4 3390 cat proc bus
+1 1467 cat touchegg <num>
+4 1590 cat touchegg conf
+1 2831 cd -d <num>
+2 1912 cd config touchegg
+1 3129 cd sys power
+1 3789 change the current
+1 1857 changeme Downloads sudo
+3 1036 changeme config touch
+3 1939 changeme config touchegg
+3 2789 changeme pactl load-module
+1 3211 changeme sys power
+1 498 channel entpr q
+2 3199 chmod ugo w
+1 492 client firefox-b-1-e channel
+2 1972 com github joseexposito
+1 1713 com pool universe
+1 486 com search client
+21 3936 com t ftsa
+1 3102 com velvet-os imagebuilder
+1 1575 conf config touchegg
+1 2641 config pulse client
+3 1039 config touch touch
+1 1551 config touchegg cp
+1 1942 config touchegg mousepad
+1 1578 config touchegg touchegg
+1 1557 cp -n usr
+1 3795 current design that's
+1 357 curvature in vortices
+1 58 dd status progress
+1 1851 deb linux changeme
+1 2218 deb package for
+2 1827 deb touchegg_202505242116-stable-2 <num>
+1 2924 deep in ass
+1 3798 design that's fine
+1 3846 developer to switch
+1 2801 device plughw <num>
+3 3402 devices | grep
+1 1305 disable touchegg service
+1 3858 distutils to something
+2 3366 dmesg | grep
+1 3780 don't want to
+1 1779 dpkg -i touchegg_
+1 1866 dpkg -i touchegg_202505242116-stable-2
+2 3311 driver i2c-3 of_node
+21 3933 duckduckgo com t
+1 2626 echo autospawn no
+1 3378 echo on |
+1 348 effects of Berry
+1 2668 enable pipewire pipewire-pulse
+1 1320 enable touchegg service
+1 501 entpr q boston
+1 696 eu betterbird Betterbird
+1 1596 exit There are
+1 2921 finger deep in
+1 495 firefox-b-1-e channel entpr
+1 693 flathub eu betterbird
+1 687 flatpak install flathub
+1 2312 flatpak install joplin
+1 82 flatpak install parabolic
+1 1087 flatpak install touche
+1 3870 flatpak install wike
+1 3882 flatpak install flatseal
+2 1966 flatpak run com
+1 2224 for your architecture
+1 3855 from distutils to
+1 2242 from the Launchpad
+1 645 ftsa q betterbird
+1 2339 ftsa q brandon
+1 2170 ftsa q cambridg
+1 52 ftsa q dd
+1 2915 ftsa q finger
+1 675 ftsa q flatpak
+1 618 ftsa q mozilla
+1 3681 ftsa q sex
+1 2270 ftsa q slack
+1 2716 ftsa q test
+1 594 ftsa q thunderbird
+1 772 ftsa q tien
+1 937 ftsa q tluchegg
+1 964 ftsa q toucheg
+2 1689 ftsa q ubuntu
+1 2297 ftsa q vnc
+1 2017 ftsa q xdotool
+1 817 ftsa q xfce
+1 3912 ftsa q inter
+1 3942 ftsa q ali
+1 726 get library books
+1 196 gimp pokemon png
+1 3099 github com velvet-os
+2 1975 github joseexposito touche
+1 483 google com search
+1 2212 grab the deb
+3 3408 grep -A5 ELAN
+1 3057 grep -i elan
+1 3372 grep -i i2c
+1 3717 having it as
+1 309 he will ask
+1 318 hem some questions
+1 2635 home linux config
+4 2988 https askubuntu com
+3 3039 https chatgpt com
+21 3930 https duckduckgo com
+1 3096 https github com
+1 3111 https gmail com
+2 3027 https outlook office
+1 2402 https twitter com
+2 2411 https www anandabazar
+1 94 https www dropbox
+1 477 https www google
+1 3555 https www mit
+1 2468 https www nytimes
+7 3822 https www omgubuntu
+2 3314 i2c-3 of_node power
+1 3774 if you don't
+1 2927 in ass porn
+1 360 in vortices this
+1 3753 increase its visibility
+1 378 indeoendent from experiments
+2 2683 info | grep
+3 3399 input devices |
+1 3627 install brightnessctl -y
+1 19 install dconf-editor -y
+1 690 install flathub eu
+1 435 install mugshot -y
+1 2611 install pipewire pipewire-pulse
+1 2532 install pulseaudio-module-jack -y
+1 2565 install pulseaudio-utils pulseaudio-module-alsa
+1 883 install touchegg xdotool
+1 2200 install touchegg you
+1 3738 instead of within
+1 345 into effects of
+1 369 is a project
+1 3810 is just so
+1 3720 it as a
+1 3756 its visibility to
+2 1341 journalctl --user -u
+1 1518 journalctl -u touchegg
+1 3813 just so wrong
+3 2131 key Left key
+3 2125 key Tab key
+3 2119 keydown alt key
+1 3732 layer setting instead
+1 729 library books and
+1 1854 linux changeme Downloads
+3 3335 linux changeme cd
+6 1936 linux changeme config
+3 2786 linux changeme pactl
+1 1398 linux changeme touch
+1 2638 linux config pulse
+1 2550 list cards short
+3 2774 load-module module-alsa-s module-alsa-sink
+1 2795 load-module module-alsa-source device
+1 342 look into effects
+1 339 meto look into
+1 3561 mit edu archi137
+1 1545 mkdir -p config
+3 2777 module-alsa-s module-alsa-sink module-alsa-source
+3 2780 module-alsa-sink module-alsa-source linux
+1 2798 module-alsa-source device plughw
+3 2783 module-alsa-source linux changeme
+1 1948 mousepad touchegg conf
+1 624 mozilla thunderbird repo
+1 3711 my opinion having
+1 1921 nanNo touchegg conf
+3 1930 nano touchegg conf
+1 904 nano touchegg touchegg
+1 3765 new users but
+1 2632 no home linux
+1 351 of Berry curvature
+1 3534 of Physics Massachusetts
+1 3546 of Technology Homepage
+1 3741 of within screen
+2 3317 of_node power subsystem
+7 3828 omgubuntu co uk
+1 3381 on | sudo
+1 3714 opinion having it
+2 3504 outgoing mit edu
+2 3030 outlook office com
+2 3468 outlook office365 com
+1 2221 package for your
+1 1635 packages ubuntu com
+2 2680 pactl info |
+4 2695 pactl list cards
+3 2771 pactl load-module module-alsa-s
+1 2792 pactl load-module module-alsa-source
+1 2589 pactl load-module module-jack-sink
+1 2496 pactl set-card-profile alsa_card
+2 3332 pinctrl linux changeme
+2 2671 pipewire pipewire-pulse wireplumber
+1 2617 pipewire-pulse wireplumber -y
+2 3329 platform pinctrl linux
+1 2873 plughw <num> --dump-hw-params
+1 2822 plughw <num> -f
+1 2804 plughw <num> source_name
+1 1716 pool universe t
+1 1707 ports ubuntu com
+2 3320 power subsystem supplier
+4 3393 proc bus input
+1 375 project indeoendent from
+1 1138 ps aux |
+1 2179 public library openhours
+1 2644 pulse client conf
+1 2568 pulseaudio-utils pulseaudio-module-alsa pulseaudio-module-jack
+1 504 q boston uni
+1 2342 q brandon sanderson
+1 2173 q cambridg public
+1 55 q dd status
+1 2918 q finger deep
+1 678 q flatpak betterbird
+1 621 q mozilla thunderbird
+1 3684 q sex after
+1 2273 q slack web
+1 2719 q test audio
+1 597 q thunderbird debian
+1 775 q tien sinhan
+1 940 q tluchegg arm
+1 967 q toucheg g
+1 1662 q ubuntu arm64
+1 1692 q ubuntu pkg
+1 2300 q vnc viwr
+1 2020 q xdotool alt
+1 820 q xfce window
+1 3915 q inter valley
+1 3945 q ali yazdanii
+1 324 questions over email
+2 1485 rm touchegg <num>
+3 1536 rm touchegg conf
+1 3208 root changeme sys
+2 1969 run com github
+1 306 said he will
+1 3747 screen would increase
+1 489 search client firefox-b-1-e
+1 1353 service -b |
+1 1296 service sudo systemctl
+1 1326 service systemctl --user
+1 2499 set-card-profile alsa_card platform-sound
+1 3735 setting instead of
+1 3687 sex after poopingporn
+1 1566 share touchegg touchegg
+1 2276 slack web app
+1 1990 sleep <num> onboard
+1 321 some questions over
+2 1902 start touchegg service
+1 1176 status touchegg service
+1 1290 stop touchegg service
+2 3323 subsystem supplier platform
+8 2605 sudo apt install
+1 1623 sudo apt remove
+2 1863 sudo dpkg -i
+1 193 sudo gimp pokemon
+1 148 sudo plymouth-set-default-theme pokemon
+1 1299 sudo systemctl disable
+1 1896 sudo systemctl start
+1 1284 sudo systemctl stop
+1 157 sudo update-initramfs -u
+2 3326 supplier platform pinctrl
+1 3852 switch from distutils
+1 2659 systemctl --user --now
+1 1383 systemctl --user daemon-reload
+2 1374 systemctl --user enable
+1 1231 systemctl --user restart
+1 1329 systemctl --user start
+1 1170 systemctl --user status
+1 1302 systemctl disable touchegg
+1 1899 systemctl start touchegg
+1 1287 systemctl stop touchegg
+21 3939 t ftsa q
+1 1722 t touchegg touchegg_1
+1 2722 test audio onlne
+1 2245 the Launchpad PPA
+1 3792 the current design
+1 2215 the deb package
+1 3843 the developer to
+1 3891 the devils bible
+1 366 this is a
+1 943 tluchegg arm packge
+1 3786 to change the
+1 3762 to new users
+1 3861 to something else
+1 3849 to switch from
+1 3729 top layer setting
+5 1389 touch touch touchegg
+5 1392 touch touchegg linux
+1 970 toucheg g ppa
+2 1488 touchegg <num> lock
+1 1524 touchegg -b -f
+1 1572 touchegg conf config
+1 1554 touchegg cp -n
+5 1395 touchegg linux changeme
+1 1945 touchegg mousepad touchegg
+2 1350 touchegg service -b
+1 1293 touchegg service sudo
+1 1323 touchegg service systemctl
+3 1581 touchegg touchegg conf
+1 1725 touchegg touchegg_1 <num>
+1 2203 touchegg you can
+1 1785 touchegg_ touchegg_1 <num>
+3 1788 touchegg_1 <num> <num>
+3 1872 touchegg_202505242116-stable-2 <num> <num>
+1 393 tঅচল য় ন
+1 1665 ubuntu arm64 package
+1 1710 ubuntu com pool
+1 1638 ubuntu com touchegg
+1 1695 ubuntu pkg repo
+3 1881 ubuntu24 <num> <num>
+1 1800 ubuntu7_arm64 deb touchegg_202505242116-stable-2
+1 3202 ugo w mem_sleep
+1 510 uni news today
+1 1719 universe t touchegg
+1 3768 users but if
+1 1563 usr share touchegg
+1 139 velvet-os github io
+1 3759 visibility to new
+1 2303 vnc viwr rpi
+1 363 vortices this is
+1 3783 want to change
+1 312 will ask hem
+1 826 window button plugin
+1 3744 within screen would
+1 3750 would increase its
+2 2414 www anandabazar com
+1 97 www dropbox com
+1 480 www google com
+1 3558 www mit edu
+1 2471 www nytimes com
+7 3825 www omgubuntu co
+1 2023 xdotool alt tab
+1 1078 xdotool key F11
+3 2116 xdotool keydown alt
+3 2149 xdotool keyup alt
+1 823 xfce window button
+1 251 xrandr --output DSI-1
+1 2206 you can grab
+1 3777 you don't want
+1 2227 your architecture amd64
+3 3405 | grep -A5
+2 3369 | grep -i
+1 1359 | grep Device
+2 2686 | grep Server
+1 1144 | grep touchegg
+1 3384 | sudo tee
+1 468 ত ফ ন
+1 465 র ত ফ
+1 3954 inter <num> Fvallley
+1 3918 inter valley coherent
+1 3921 valley coherent phase
+1 3948 ali yazdanii inter
+1 3951 yazdanii inter <num>
+1 3960 Fvallley coherent phas3
 
 \end\

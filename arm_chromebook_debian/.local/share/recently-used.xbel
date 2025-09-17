@@ -91,8 +91,8 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/linux/Documents/GitHub/postinstall-scripts/arm_chromebook_debian/install_pkg" added="2025-09-05T01:54:48.417934Z" modified="2025-09-05T01:56:19.691665Z" visited="2025-09-05T01:54:48.417936Z">
-    <desc>Language: ; Encoding: UTF-8; Cursor: 0:65;</desc>
+  <bookmark href="file:///home/linux/Documents/GitHub/postinstall-scripts/arm_chromebook_debian/install_pkg" added="2025-09-05T01:54:48.417934Z" modified="2025-09-05T02:00:46.129242Z" visited="2025-09-05T01:54:48.417936Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:78;</desc>
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -100,8 +100,402 @@
           <bookmark:group>Mousepad</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-05T01:54:48.417941Z" count="1"/>
-          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-09-05T01:56:19.691655Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-05T01:59:54.964625Z" count="2"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-09-05T02:00:46.129237Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/wifi.py" added="2025-09-05T02:51:40.265990Z" modified="2025-09-05T02:55:57.282629Z" visited="2025-09-05T02:51:40.265993Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 9:23;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-05T02:51:40.265999Z" count="1"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-09-05T02:55:57.282612Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/wifi-swich.py" added="2025-09-05T03:00:06.864174Z" modified="2025-09-05T03:00:09.841807Z" visited="2025-09-05T03:00:06.864176Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-05T03:00:06.864179Z" count="1"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-09-05T03:00:09.841799Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/Telegram" added="2025-09-05T14:34:27.613229Z" modified="2025-09-05T14:34:27.806117Z" visited="2025-09-05T14:34:27.613232Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.telegram.desktop" exec="&apos;gio open %u&apos;" modified="2025-09-05T14:34:27.613237Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-09-05T14:34:27.806111Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/GoogleDot-Red.tar.gz" added="2025-09-05T14:59:41.431079Z" modified="2025-09-05T14:59:41.431159Z" visited="2025-09-05T14:59:41.431086Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-05T14:59:41.431117Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/English%20Books/a-popular-schoolgirl%20by%20Anjela%20Brazil.epub" added="2025-09-05T16:13:25.772771Z" modified="2025-09-05T16:13:25.772801Z" visited="2025-09-05T16:13:25.772775Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/epub+zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-05T16:13:25.772781Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Android/data/com.overdrive.mobile.android.libby/files/Documents/Responses/04/04d72f50660de4e13f718dc35daff20f.1" added="2025-09-06T02:10:36.939814Z" modified="2025-09-06T02:10:36.939830Z" visited="2025-09-06T02:10:36.939817Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-troff-man"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-06T02:10:36.939821Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/English%20Books/Jo%20Zette%20and%20Jocko/Jo,%20Zette%20and%20Jocko-Cobras.pdf" added="2025-09-11T01:33:15.194274Z" modified="2025-09-11T01:34:19.728529Z" visited="2025-09-11T01:33:15.194280Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-11T01:34:19.728513Z" count="4"/>
+          <bookmark:application name="com.github.xournalpp.xournalpp" exec="&apos;com.github.xournalpp.xournalpp %u&apos;" modified="2025-09-11T01:33:31.924366Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/English%20Books/Jo%20Zette%20and%20Jocko/Jo,%20Zette%20and%20Jocko.pdf" added="2025-09-11T01:35:11.268542Z" modified="2025-09-11T01:35:11.268558Z" visited="2025-09-11T01:35:11.268544Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-11T01:35:11.268547Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/English%20Books/(TOAST%20(Florian%20Bates)%201)%20Ponti,%20James%20-%20Framed!.epub" added="2025-09-11T01:35:56.173306Z" modified="2025-09-11T01:36:22.310417Z" visited="2025-09-11T01:35:56.173311Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/epub+zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-11T01:36:22.310400Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/videoplayback.m4a" added="2025-09-11T03:14:51.441321Z" modified="2025-09-11T03:14:51.441381Z" visited="2025-09-11T03:14:51.441328Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-11T03:14:51.441347Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/plymouth-theme-pokemon_0.1-0~202306280506~ubuntu22.04.1_all.deb" added="2025-09-11T03:21:10.004698Z" modified="2025-09-11T03:21:10.004725Z" visited="2025-09-11T03:21:10.004703Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-11T03:21:10.004713Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A7%87%20%E0%A6%B9%E0%A7%87%E0%A6%B0%E0%A6%BE%20%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%87%20%E0%A6%97%E0%A6%BE%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A7%9F%20%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8B%20%E0%A6%A8%E0%A6%BE%20-%20Debabrata%20Biswas%20%5B2wxzQfO_WNc%5D.mp3" added="2025-09-11T03:26:45.015054Z" modified="2025-09-15T04:30:53.541044Z" visited="2025-09-11T03:26:45.015056Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-15T04:30:53.541035Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/plymouth/themes/pokemon/pokemon.png" added="2025-09-11T19:42:08.913896Z" modified="2025-09-11T19:50:19.955150Z" visited="2025-09-11T19:42:08.913899Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-11T19:50:18.857266Z" count="5"/>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2025-09-11T19:50:19.955144Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/pokemon.png" added="2025-09-11T19:44:57.446159Z" modified="2025-09-13T15:06:36.689389Z" visited="2025-09-11T19:44:57.446163Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-13T15:06:35.477984Z" count="2"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-3.0 %u&apos;" modified="2025-09-11T19:45:31.501064Z" count="1"/>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2025-09-13T15:06:36.689380Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/screen-orientation-manager_1.4.2_all.deb" added="2025-09-12T02:22:48.705651Z" modified="2025-09-12T02:22:48.705664Z" visited="2025-09-12T02:22:48.705653Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-12T02:22:48.705658Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/%22%E0%A6%85%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A4%E0%A6%A8%22%20%E0%A6%A8%E0%A6%BE%E0%A6%9F%E0%A6%95%20_%20%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5%20%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0%20%5BCyHTrLvKCyM%5D.mp3" added="2025-09-12T02:50:52.261950Z" modified="2025-09-12T02:59:32.277930Z" visited="2025-09-12T02:50:52.261952Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-12T02:59:32.277921Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/%E0%A6%B8%E0%A7%81%E0%A6%96%E0%A7%87%E0%A6%B0%20%E0%A6%AE%E0%A6%BE%E0%A6%9D%E0%A7%87%20%E0%A6%A4%E0%A7%8B%E0%A6%AE%E0%A6%BE%E0%A7%9F%20%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%87%E0%A6%9B%E0%A6%BF--%E0%A6%B8%E0%A7%81%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%20%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0(%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AD)SUKHER%20MAJHE%20TOMAY%20DEKHECHI--SUCHITRA%20MITRA(LIVE)%20%5BC0h8FKUpk54%5D.mp3" added="2025-09-12T03:34:26.647485Z" modified="2025-09-12T03:34:26.647516Z" visited="2025-09-12T03:34:26.647491Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-12T03:34:26.647499Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/Bangla%20Books/Narayan%20Sanyal/Katai_Katai_3%20by%20Narayan%20Sanyal.pdf" added="2025-09-12T13:37:02.915162Z" modified="2025-09-12T18:29:05.635207Z" visited="2025-09-12T13:37:02.915164Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-12T18:29:05.635199Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/touchegg_202505242116-stable-2.0.18~ubuntu24.04.1_armhf.deb" added="2025-09-13T06:37:33.857376Z" modified="2025-09-13T06:37:33.857402Z" visited="2025-09-13T06:37:33.857381Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-13T06:37:33.857390Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/touchegg_202505242116-stable-2.0.18~ubuntu24.04.1_arm64.deb" added="2025-09-13T06:37:52.439660Z" modified="2025-09-13T06:37:52.439700Z" visited="2025-09-13T06:37:52.439666Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-13T06:37:52.439680Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/toggle-monitor-grayscale.sh" added="2025-09-13T06:44:34.269289Z" modified="2025-09-13T06:44:34.269323Z" visited="2025-09-13T06:44:34.269296Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-13T06:44:34.269305Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/Bangla%20Books/Shirshendu%20Mukhopadhyay/Bikeler_Mrittu%20by%20SHIRSHENDU%20MUKHOPADHAY.pdf" added="2025-09-13T07:33:47.863470Z" modified="2025-09-13T07:33:47.863499Z" visited="2025-09-13T07:33:47.863475Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-13T07:33:47.863483Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/Bangla%20Books/Shirshendu%20Mukhopadhyay/Durbin%20by%20Shirshendu%20Mukhopadhyay.pdf" added="2025-09-13T07:34:12.712814Z" modified="2025-09-13T07:34:12.712846Z" visited="2025-09-13T07:34:12.712820Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-13T07:34:12.712827Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/touchegg_1.1.1-0ubuntu7_arm64.deb" added="2025-09-13T15:23:48.258020Z" modified="2025-09-15T04:32:51.627659Z" visited="2025-09-13T15:23:48.258023Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-13T15:23:48.258032Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-15T04:32:51.627647Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/.config/touchegg/touchegg.conf" added="2025-09-13T15:35:25.898712Z" modified="2025-09-13T15:36:48.199459Z" visited="2025-09-13T15:35:25.898715Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 58:15;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-09-13T15:36:48.199450Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/Debabrata%20Biswas%20-Sudhu%20jaoa%20asa(%E0%A6%B6%E0%A7%81%E0%A6%A7%E0%A7%81%20%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE%20%E0%A6%86%E0%A6%B8%E0%A6%BE,%20%E0%A6%B6%E0%A7%81%E0%A6%A7%E0%A7%81%20%E0%A6%B8%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%A4%E0%A7%87%20%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A6%BE)%20%5BuVF54HtoNO4%5D.mp3" added="2025-09-13T17:27:43.561500Z" modified="2025-09-13T17:27:43.561535Z" visited="2025-09-13T17:27:43.561513Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-13T17:27:43.561519Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/VNC-Viewer-7.15.0-Linux-ARM64.deb" added="2025-09-13T22:28:49.493001Z" modified="2025-09-13T22:28:49.493016Z" visited="2025-09-13T22:28:49.493004Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-13T22:28:49.493011Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/Bangla%20Books/Patrika/Anandamela/2025/%E0%A6%86%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE_%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%95%E0%A7%80_%E0%A7%A7%E0%A7%AA%E0%A7%A9%E0%A7%A8_%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB_@Bangla_Pujabarshiki.pdf" added="2025-09-15T05:01:02.670079Z" modified="2025-09-15T14:03:11.314986Z" visited="2025-09-15T05:01:02.670083Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-15T14:03:11.314972Z" count="22"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/English%20Books/The%20Prude&apos;s%20progress%20Jerome%20and%20Philpods.epub" added="2025-09-16T00:15:41.005777Z" modified="2025-09-16T00:15:59.216598Z" visited="2025-09-16T00:15:41.005782Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-16T00:15:58.405109Z" count="3"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-09-16T00:15:59.216595Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/English%20Books/The%20Craft%20of%20Scientific%20Presentations%20by%20Michael%20Alley.pdf" added="2025-09-16T00:16:13.170763Z" modified="2025-09-16T00:16:13.170801Z" visited="2025-09-16T00:16:13.170768Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-16T00:16:13.170778Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/user/1000/doc/9bf550e/Telegram/IMG_20250916_062603.jpg" added="2025-09-17T03:15:48.639052Z" modified="2025-09-17T03:15:48.639067Z" visited="2025-09-17T03:15:48.639055Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-17T03:15:48.639059Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/Bangla%20Books/Narayan%20Sanyal/%E0%A6%9B%E0%A7%8B%E0%A6%81%E0%A6%AC%E0%A6%B2%20-%20%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A3%20%E0%A6%B8%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2.pdf" added="2025-09-17T03:27:08.978767Z" modified="2025-09-17T03:27:08.978788Z" visited="2025-09-17T03:27:08.978771Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-17T03:27:08.978776Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-3030/Books/Bangla%20Books/Narayan%20Sanyal/Jugol_Kata%20by%20Narayan%20Sanyal.pdf" added="2025-09-17T13:08:00.957996Z" modified="2025-09-17T13:08:00.958022Z" visited="2025-09-17T13:08:00.958001Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-17T13:08:00.958007Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/s41467-022-33561-w.pdf" added="2025-09-17T14:28:15.562830Z" modified="2025-09-17T14:28:15.562845Z" visited="2025-09-17T14:28:15.562833Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-17T14:28:15.562839Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/Downloads/science.abm3770.pdf" added="2025-09-17T14:42:31.461957Z" modified="2025-09-17T14:42:31.461977Z" visited="2025-09-17T14:42:31.461964Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-09-17T14:42:31.461971Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/linux/6430-30301/Books/Bangla%20Books/10ti%20Kishor%20Upanyas%20-%20Mati%20Nandi.pdf" added="2025-09-17T22:57:07.638986Z" modified="2025-09-17T22:57:07.639009Z" visited="2025-09-17T22:57:07.638989Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-09-17T22:57:07.638995Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

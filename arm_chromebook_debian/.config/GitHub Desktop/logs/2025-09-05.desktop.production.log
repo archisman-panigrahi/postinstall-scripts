@@ -40,3 +40,15 @@ Error: Cannot create an item in a locked collection
 2025-09-05T01:53:41.686Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/archisman-panigrahi/postinstall-scripts.git /home/linux/Documents/GitHub/postinstall-scripts (took 1.779s)
 2025-09-05T01:53:41.839Z - info: [ui] [AppStore] adding repository at /home/linux/Documents/GitHub/postinstall-scripts to store
 2025-09-05T01:53:44.043Z - info: [ui] [BranchPruner] No branches to prune.
+2025-09-05T02:00:53.686Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 3.693s)
+2025-09-05T02:00:54.101Z - info: [ui] [Timing] Action 'create commit' for 'archisman-panigrahi/postinstall-scripts' took 4.416s
+2025-09-05T02:00:54.199Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-09-05T02:00:56.314Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-09-05T02:01:03.466Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-09-05T02:01:07.347Z - info: [ui] Executing push: git push origin main:main --progress (took 11.299s)
+2025-09-05T02:01:11.636Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-09-05T02:01:13.263Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read

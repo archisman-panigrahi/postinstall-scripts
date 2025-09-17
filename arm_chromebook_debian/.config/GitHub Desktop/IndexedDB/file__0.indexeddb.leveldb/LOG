@@ -1,2 +1,3 @@
-2025/09/05-01:47:18.833 3e83 Creating DB /home/linux/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb since it was missing.
-2025/09/05-01:47:18.843 3e83 Reusing MANIFEST /home/linux/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2025/09/13-11:14:35.121 fe4 Reusing MANIFEST /home/linux/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2025/09/13-11:14:35.125 fe4 Recovering log #3
+2025/09/13-11:14:35.128 fe4 Reusing old log /home/linux/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/000003.log 
